@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+	<data>
+		<!-- Health Districts aka Operational Sectors -->
+		<record id="jmsector_01_93b3d" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-01"/>
+			<field name="name">Zone 1</field>
+		</record>
+		<record id="jmsector_01_ac4ff" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-01"/>
+			<field name="name">Zone 2</field>
+		</record>
+		<record id="jmsector_01_c4883" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-01"/>
+			<field name="name">Zone 3</field>
+		</record>
+		<record id="jmsector_01_3bd35" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-01"/>
+			<field name="name">Zone 4</field>
+		</record>
+		<record id="jmsector_01_61873" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-01"/>
+			<field name="name">Zone 5</field>
+		</record>
+		<record id="jmsector_01_016fa" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-01"/>
+			<field name="name">Zone 6</field>
+		</record>
+		<record id="jmsector_03_2bc83" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-03"/>
+			<field name="name">Eastern 1</field>
+		</record>
+		<record id="jmsector_03_5e899" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-03"/>
+			<field name="name">Southern 2</field>
+		</record>
+		<record id="jmsector_03_85617" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-03"/>
+			<field name="name">North Western 3</field>
+		</record>
+		<record id="jmsector_03_3f39d" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-03"/>
+			<field name="name">South Western 4</field>
+		</record>
+		<record id="jmsector_04_6d6f8" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-04"/>
+			<field name="name">Port Antonio</field>
+		</record>
+		<record id="jmsector_04_a9335" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-04"/>
+			<field name="name">Manchioneal</field>
+		</record>
+		<record id="jmsector_04_2dfa1" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-04"/>
+			<field name="name">Buff Bay</field>
+		</record>
+		<record id="jmsector_05_29a38" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-05"/>
+			<field name="name">Port Maria</field>
+		</record>
+		<record id="jmsector_05_8798c" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-05"/>
+			<field name="name">Oracabessa</field>
+		</record>
+		<record id="jmsector_05_82781" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-05"/>
+			<field name="name">Gayle</field>
+		</record>
+		<record id="jmsector_05_c21fd" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-05"/>
+			<field name="name">Annotto Bay</field>
+		</record>
+		<record id="jmsector_05_abd92" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-05"/>
+			<field name="name">Highgate</field>
+		</record>
+		<record id="jmsector_06_96371" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-06"/>
+			<field name="name">Saint Ann's Bay</field>
+		</record>
+		<record id="jmsector_06_0fc2c" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-06"/>
+			<field name="name">Ocho Rios</field>
+		</record>
+		<record id="jmsector_06_38bbd" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-06"/>
+			<field name="name">Claremont</field>
+		</record>
+		<record id="jmsector_06_f602f" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-06"/>
+			<field name="name">Brown's Town</field>
+		</record>
+		<record id="jmsector_06_a6bc8" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_northeast"/>
+			<field name="subdivision" ref="country.jm-06"/>
+			<field name="name">Alexandria</field>
+		</record>
+		<record id="jmsector_07_12f15" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-07"/>
+			<field name="name">Falmouth</field>
+		</record>
+		<record id="jmsector_07_2b2bf" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-07"/>
+			<field name="name">Albert Town</field>
+		</record>
+		<record id="jmsector_07_1dfb3" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-07"/>
+			<field name="name">Duncans</field>
+		</record>
+		<record id="jmsector_08_344cb" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-08"/>
+			<field name="name">Montego Bay</field>
+		</record>
+		<record id="jmsector_08_90944" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-08"/>
+			<field name="name">Cambridge</field>
+		</record>
+		<record id="jmsector_08_68e70" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-08"/>
+			<field name="name">Catherine Hall</field>
+		</record>
+		<record id="jmsector_08_d6bb2" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-08"/>
+			<field name="name">Maroon Town</field>
+		</record>
+		<record id="jmsector_09_d8ad0" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-09"/>
+			<field name="name">Lucea</field>
+		</record>
+		<record id="jmsector_09_96076" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-09"/>
+			<field name="name">Green Island</field>
+		</record>
+		<record id="jmsector_09_7002d" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-09"/>
+			<field name="name">Hopewell</field>
+		</record>
+		<record id="jmsector_10_7e86b" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-10"/>
+			<field name="name">Sav-La-Mar</field>
+		</record>
+		<record id="jmsector_10_630b5" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-10"/>
+			<field name="name">Grange Hill</field>
+		</record>
+		<record id="jmsector_10_a79d9" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-10"/>
+			<field name="name">Negril</field>
+		</record>
+		<record id="jmsector_10_7fee9" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-10"/>
+			<field name="name">White House</field>
+		</record>
+		<record id="jmsector_10_5f1c1" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_west"/>
+			<field name="subdivision" ref="country.jm-10"/>
+			<field name="name">Darliston/Bethel Town</field>
+		</record>
+		<record id="jmsector_11_0d020" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-11"/>
+			<field name="name">Balaclava</field>
+		</record>
+		<record id="jmsector_11_8fc62" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-11"/>
+			<field name="name">Black River</field>
+		</record>
+		<record id="jmsector_11_4fdd4" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-11"/>
+			<field name="name">Junction</field>
+		</record>
+		<record id="jmsector_11_2314e" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-11"/>
+			<field name="name">Maggotty</field>
+		</record>
+		<record id="jmsector_11_90038" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-11"/>
+			<field name="name">Santa Cruz</field>
+		</record>
+		<record id="jmsector_11_c8ca7" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-11"/>
+			<field name="name">Southfield</field>
+		</record>
+		<record id="jmsector_12_38609" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-12"/>
+			<field name="name">Mandeville</field>
+		</record>
+		<record id="jmsector_12_979ab" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-12"/>
+			<field name="name">Porus</field>
+		</record>
+		<record id="jmsector_12_6e47d" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-12"/>
+			<field name="name">Christiana</field>
+		</record>
+		<record id="jmsector_12_cdad7" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-12"/>
+			<field name="name">Mile Gully</field>
+		</record>
+		<record id="jmsector_12_29a4e" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-12"/>
+			<field name="name">Cross Keys</field>
+		</record>
+		<record id="jmsector_12_32ce0" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-12"/>
+			<field name="name">Newport</field>
+		</record>
+		<record id="jmsector_13_ee673" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Spalding</field>
+		</record>
+		<record id="jmsector_13_17a1a" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Frankfield</field>
+		</record>
+		<record id="jmsector_13_c3381" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Kellitts</field>
+		</record>
+		<record id="jmsector_13_547e1" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Chapelton</field>
+		</record>
+		<record id="jmsector_13_da264" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">May Pen</field>
+		</record>
+		<record id="jmsector_13_6c4cd" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Lionel Town</field>
+		</record>
+		<record id="jmsector_13_47682" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Race Course</field>
+		</record>
+		<record id="jmsector_13_1cb88" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">May Pen West</field>
+		</record>
+		<record id="jmsector_13_edd79" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_south"/>
+			<field name="subdivision" ref="country.jm-13"/>
+			<field name="name">Thompson Town</field>
+		</record>
+		<record id="jmsector_14_2d7ab" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-14"/>
+			<field name="name">Zone 1 Portmore</field>
+		</record>
+		<record id="jmsector_14_b6532" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-14"/>
+			<field name="name">Zone 2 Spanish Town</field>
+		</record>
+		<record id="jmsector_14_3c73e" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-14"/>
+			<field name="name">Zone 3 Old Harbour</field>
+		</record>
+		<record id="jmsector_14_2694c" model="gnuhealth.operational_sector">
+			<field name="operational_area" ref="jmmoh_oparea_southeast"/>
+			<field name="subdivision" ref="country.jm-14"/>
+			<field name="name">Zone 4 Linstead</field>
+		</record>
+	</data>
+</tryton>

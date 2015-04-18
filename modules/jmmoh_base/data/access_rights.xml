@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tryton>
+    <data>
+        <!-- Disable the demo users shipped with GNU Health -->
+        <record model="res.user" id="health.user_demo_frontdesk">
+            <field name="name">Health Front Desk</field>
+            <field name="login">demo_frontdesk</field>
+            <field name="password">jmmohdisabled0504336db404</field>
+            <field name="active" eval="False" />
+        </record>
+        <record model="res.user" id="health.user_demo_doctor">
+            <field name="name">Health Doctor</field>
+            <field name="login">demo_doctor</field>
+            <field name="password">jmmohdisabled1d64342b1e30</field>
+            <field name="active" eval="False" />
+        </record>
+        <record model="res.user" id="health.user_demo_social_worker">
+            <field name="name">Health Social Worker</field>
+            <field name="login">demo_social_worker</field>
+            <field name="password">jmmohdisabledfd0396e4f0e8</field>
+            <field name="active" eval="False" />
+        </record>
+        <record model="res.user" id="health.user_demo_back_office">
+            <field name="name">Health Back Office</field>
+            <field name="login">demo_back_office</field>
+            <field name="password">jmmohdisabledcf6c90cd5691</field>
+            <field name="active" eval="False" />
+        </record>
+    </data>
+</tryton>

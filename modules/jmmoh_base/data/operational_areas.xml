@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tryton>
+    <data>
+        <!-- Regional Health Authorities -->
+        <record id="jmmoh_oparea_west" model="gnuhealth.operational_area">
+            <field name="name">Western</field>
+        </record>
+        <record id="jmmoh_oparea_northeast" model="gnuhealth.operational_area">
+            <field name="name">North East</field>
+        </record>
+        <record id="jmmoh_oparea_southeast" model="gnuhealth.operational_area">
+            <field name="name">South East</field>
+        </record>
+        <record id="jmmoh_oparea_south" model="gnuhealth.operational_area">
+            <field name="name">Southern</field>
+        </record>
+    </data>
+</tryton>
+
+
