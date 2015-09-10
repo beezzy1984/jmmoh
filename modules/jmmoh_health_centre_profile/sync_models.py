@@ -1,7 +1,7 @@
 
 from tryton_synchronisation import SyncMixin, SyncMode
 from trytond.pool import PoolMeta
-__all__ = ['OccupationalGroup',]
+__all__ = ['OccupationalGroup']
 
 
 class OccupationalGroup(SyncMixin):
