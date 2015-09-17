@@ -8,6 +8,7 @@
             <field name="name">Port Antonio Hospital</field>
         </record>
         <record id="institution_HO2-04-PAH" model="gnuhealth.institution">
+            <field name="code">HO2-04-PAH</field>
             <field name="name" ref="party_HO2-04-PAH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">95</field>
@@ -23,6 +24,7 @@
             <field name="name">Saint Ann's Bay Regional Hospital</field>
         </record>
         <record id="institution_HO2-06-SAB" model="gnuhealth.institution">
+            <field name="code">HO2-06-SAB</field>
             <field name="name" ref="party_HO2-06-SAB"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">252</field>
@@ -38,6 +40,7 @@
             <field name="name">Annotto Bay Hospital</field>
         </record>
         <record id="institution_HO2-05-ABH" model="gnuhealth.institution">
+            <field name="code">HO2-05-ABH</field>
             <field name="name" ref="party_HO2-05-ABH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">117</field>
@@ -53,6 +56,7 @@
             <field name="name">Port Maria Hospital</field>
         </record>
         <record id="institution_HO2-05-PMH" model="gnuhealth.institution">
+            <field name="code">HO2-05-PMH</field>
             <field name="name" ref="party_HO2-05-PMH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">61</field>
@@ -68,6 +72,7 @@
             <field name="name">Andrew's Memorial Hospital</field>
         </record>
         <record id="institution_PH1-01-AMH" model="gnuhealth.institution">
+            <field name="code">PH1-01-AMH</field>
             <field name="name" ref="party_PH1-01-AMH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -82,6 +87,7 @@
             <field name="name">Bellevue Hospital</field>
         </record>
         <record id="institution_HO1-01-BVH" model="gnuhealth.institution">
+            <field name="code">HO1-01-BVH</field>
             <field name="name" ref="party_HO1-01-BVH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">895</field>
@@ -97,6 +103,7 @@
             <field name="name">Bustamante Hospital for Children</field>
         </record>
         <record id="institution_HO1-01-BHC" model="gnuhealth.institution">
+            <field name="code">HO1-01-BHC</field>
             <field name="name" ref="party_HO1-01-BHC"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">281</field>
@@ -112,6 +119,7 @@
             <field name="name">Hope Institute</field>
         </record>
         <record id="institution_HO1-01-HIN" model="gnuhealth.institution">
+            <field name="code">HO1-01-HIN</field>
             <field name="name" ref="party_HO1-01-HIN"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">40</field>
@@ -127,6 +135,7 @@
             <field name="name">Kingston Public Hospital </field>
         </record>
         <record id="institution_HO1-01-KPH" model="gnuhealth.institution">
+            <field name="code">HO1-01-KPH</field>
             <field name="name" ref="party_HO1-01-KPH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">556</field>
@@ -142,6 +151,7 @@
             <field name="name">Medical Associates Hospital</field>
         </record>
         <record id="institution_PH1-01-MAH" model="gnuhealth.institution">
+            <field name="code">PH1-01-MAH</field>
             <field name="name" ref="party_PH1-01-MAH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -156,6 +166,7 @@
             <field name="name">National Chest Hospital</field>
         </record>
         <record id="institution_HO1-01-NCH" model="gnuhealth.institution">
+            <field name="code">HO1-01-NCH</field>
             <field name="name" ref="party_HO1-01-NCH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">96</field>
@@ -171,6 +182,7 @@
             <field name="name">Nuttall Memorial Hospital</field>
         </record>
         <record id="institution_PH1-01-NMH" model="gnuhealth.institution">
+            <field name="code">PH1-01-NMH</field>
             <field name="name" ref="party_PH1-01-NMH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -185,6 +197,7 @@
             <field name="name">Sir John Golding Rehabilitation Center</field>
         </record>
         <record id="institution_HO1-01-SJG" model="gnuhealth.institution">
+            <field name="code">HO1-01-SJG</field>
             <field name="name" ref="party_HO1-01-SJG"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">70</field>
@@ -200,6 +213,7 @@
             <field name="name">Saint Joseph's Hospital</field>
         </record>
         <record id="institution_PH1-01-SJH" model="gnuhealth.institution">
+            <field name="code">PH1-01-SJH</field>
             <field name="name" ref="party_PH1-01-SJH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -214,6 +228,7 @@
             <field name="name">University Hospital of the West Indies</field>
         </record>
         <record id="institution_HO1-01-UHW" model="gnuhealth.institution">
+            <field name="code">HO1-01-UHW</field>
             <field name="name" ref="party_HO1-01-UHW"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">439</field>
@@ -229,6 +244,7 @@
             <field name="name">Victoria Jubilee Hospital </field>
         </record>
         <record id="institution_HO1-01-VJH" model="gnuhealth.institution">
+            <field name="code">HO1-01-VJH</field>
             <field name="name" ref="party_HO1-01-VJH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">218</field>
@@ -244,6 +260,7 @@
             <field name="name">Linstead Hospital</field>
         </record>
         <record id="institution_HO1-14-LIH" model="gnuhealth.institution">
+            <field name="code">HO1-14-LIH</field>
             <field name="name" ref="party_HO1-14-LIH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">55</field>
@@ -259,6 +276,7 @@
             <field name="name">Spanish Town Hospital</field>
         </record>
         <record id="institution_HO1-14-STH" model="gnuhealth.institution">
+            <field name="code">HO1-14-STH</field>
             <field name="name" ref="party_HO1-14-STH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">352</field>
@@ -274,6 +292,7 @@
             <field name="name">Princess Margaret Hospital</field>
         </record>
         <record id="institution_HO1-03-PMH" model="gnuhealth.institution">
+            <field name="code">HO1-03-PMH</field>
             <field name="name" ref="party_HO1-03-PMH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">129</field>
@@ -289,6 +308,7 @@
             <field name="name">Lionel Town Hospital</field>
         </record>
         <record id="institution_HO4-13-LTH" model="gnuhealth.institution">
+            <field name="code">HO4-13-LTH</field>
             <field name="name" ref="party_HO4-13-LTH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">45</field>
@@ -304,6 +324,7 @@
             <field name="name">May Pen Hospital</field>
         </record>
         <record id="institution_HO4-13-MPH" model="gnuhealth.institution">
+            <field name="code">HO4-13-MPH</field>
             <field name="name" ref="party_HO4-13-MPH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">170</field>
@@ -319,6 +340,7 @@
             <field name="name">Hargreaves Memorial Hospital</field>
         </record>
         <record id="institution_PH4-12-HMH" model="gnuhealth.institution">
+            <field name="code">PH4-12-HMH</field>
             <field name="name" ref="party_PH4-12-HMH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -333,6 +355,7 @@
             <field name="name">Mandeville Regional Hospital</field>
         </record>
         <record id="institution_HO4-12-MRH" model="gnuhealth.institution">
+            <field name="code">HO4-12-MRH</field>
             <field name="name" ref="party_HO4-12-MRH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">206</field>
@@ -348,6 +371,7 @@
             <field name="name">Percy Junor Hospital</field>
         </record>
         <record id="institution_HO4-12-PJH" model="gnuhealth.institution">
+            <field name="code">HO4-12-PJH</field>
             <field name="name" ref="party_HO4-12-PJH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">119</field>
@@ -363,6 +387,7 @@
             <field name="name">Black River Hospital</field>
         </record>
         <record id="institution_HO4-11-BRH" model="gnuhealth.institution">
+            <field name="code">HO4-11-BRH</field>
             <field name="name" ref="party_HO4-11-BRH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">97</field>
@@ -378,6 +403,7 @@
             <field name="name">Noel Holmes Hospital</field>
         </record>
         <record id="institution_HO3-09-NHH" model="gnuhealth.institution">
+            <field name="code">HO3-09-NHH</field>
             <field name="name" ref="party_HO3-09-NHH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">38</field>
@@ -393,6 +419,7 @@
             <field name="name">Montego Bay Hospital</field>
         </record>
         <record id="institution_PH3-08-MBH" model="gnuhealth.institution">
+            <field name="code">PH3-08-MBH</field>
             <field name="name" ref="party_PH3-08-MBH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -407,6 +434,7 @@
             <field name="name">Cornwall Regional Hospital</field>
         </record>
         <record id="institution_HO3-08-CRH" model="gnuhealth.institution">
+            <field name="code">HO3-08-CRH</field>
             <field name="name" ref="party_HO3-08-CRH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">400</field>
@@ -422,6 +450,7 @@
             <field name="name">Doctors' Hospital</field>
         </record>
         <record id="institution_PH3-08-DOH" model="gnuhealth.institution">
+            <field name="code">PH3-08-DOH</field>
             <field name="name" ref="party_PH3-08-DOH"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -436,6 +465,7 @@
             <field name="name">Mobay Hope</field>
         </record>
         <record id="institution_PH3-08-MHP" model="gnuhealth.institution">
+            <field name="code">PH3-08-MHP</field>
             <field name="name" ref="party_PH3-08-MHP"/>
             <field eval="True" name="trauma_center"/>
             <field name="public_level">private</field>
@@ -450,6 +480,7 @@
             <field name="name">Falmouth Hospital</field>
         </record>
         <record id="institution_HO3-07-FAH" model="gnuhealth.institution">
+            <field name="code">HO3-07-FAH</field>
             <field name="name" ref="party_HO3-07-FAH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">58</field>
@@ -465,6 +496,7 @@
             <field name="name">Savanna-la-Mar Hospital</field>
         </record>
         <record id="institution_HO3-10-SMH" model="gnuhealth.institution">
+            <field name="code">HO3-10-SMH</field>
             <field name="name" ref="party_HO3-10-SMH"/>
             <field eval="True" name="trauma_center"/>
             <field name="beds">138</field>
@@ -481,6 +513,7 @@
         </record>
         <record id="institution_HC4-13-AEN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-AEN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-AEN"/>
             <field name="trauma_level">one</field>
@@ -493,6 +526,7 @@
         </record>
         <record id="institution_HC4-13-ALS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-ALS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-ALS"/>
             <field name="trauma_level">one</field>
@@ -505,6 +539,7 @@
         </record>
         <record id="institution_HC4-13-BDH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-BDH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-BDH"/>
             <field name="trauma_level">one</field>
@@ -517,6 +552,7 @@
         </record>
         <record id="institution_HC4-13-BCC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-BCC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-BCC"/>
             <field name="trauma_level">one</field>
@@ -529,6 +565,7 @@
         </record>
         <record id="institution_HC4-13-CPT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-CPT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-CPT"/>
             <field name="trauma_level">one</field>
@@ -541,6 +578,7 @@
         </record>
         <record id="institution_HC4-13-CRG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-CRG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-CRG"/>
             <field name="trauma_level">one</field>
@@ -553,6 +591,7 @@
         </record>
         <record id="institution_HC4-13-CRH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-CRH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-CRH"/>
             <field name="trauma_level">one</field>
@@ -565,6 +604,7 @@
         </record>
         <record id="institution_HC4-13-CKR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-CKR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-CKR"/>
             <field name="trauma_level">one</field>
@@ -577,6 +617,7 @@
         </record>
         <record id="institution_HC4-13-CBL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-CBL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-CBL"/>
             <field name="trauma_level">one</field>
@@ -589,6 +630,7 @@
         </record>
         <record id="institution_HC4-13-DLW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-DLW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-DLW"/>
             <field name="trauma_level">one</field>
@@ -601,6 +643,7 @@
         </record>
         <record id="institution_HC4-13-FKF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-FKF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-FKF"/>
             <field name="trauma_level">one</field>
@@ -613,6 +656,7 @@
         </record>
         <record id="institution_HC4-13-HLH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-HLH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-HLH"/>
             <field name="trauma_level">one</field>
@@ -625,6 +669,7 @@
         </record>
         <record id="institution_HC4-13-JHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-JHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-JHL"/>
             <field name="trauma_level">one</field>
@@ -637,6 +682,7 @@
         </record>
         <record id="institution_HC4-13-KTS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-KTS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-KTS"/>
             <field name="trauma_level">one</field>
@@ -649,6 +695,7 @@
         </record>
         <record id="institution_HC4-13-LCF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-LCF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-LCF"/>
             <field name="trauma_level">one</field>
@@ -661,6 +708,7 @@
         </record>
         <record id="institution_HC4-13-LNT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-LNT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-LNT"/>
             <field name="trauma_level">one</field>
@@ -673,6 +721,7 @@
         </record>
         <record id="institution_HC4-13-MYP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-MYP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-MYP"/>
             <field name="trauma_level">one</field>
@@ -685,6 +734,7 @@
         </record>
         <record id="institution_HC4-13-MKR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-MKR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-MKR"/>
             <field name="trauma_level">one</field>
@@ -697,6 +747,7 @@
         </record>
         <record id="institution_HC4-13-MCT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-MCT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-MCT"/>
             <field name="trauma_level">one</field>
@@ -709,6 +760,7 @@
         </record>
         <record id="institution_HC4-13-MCH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-MCH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-MCH"/>
             <field name="trauma_level">one</field>
@@ -721,6 +773,7 @@
         </record>
         <record id="institution_HC4-13-MRV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-MRV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-MRV"/>
             <field name="trauma_level">one</field>
@@ -733,6 +786,7 @@
         </record>
         <record id="institution_HC4-13-PNT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-PNT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-PNT"/>
             <field name="trauma_level">one</field>
@@ -745,6 +799,7 @@
         </record>
         <record id="institution_HC4-13-RCS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-RCS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-RCS"/>
             <field name="trauma_level">one</field>
@@ -757,6 +812,7 @@
         </record>
         <record id="institution_HC4-13-RYM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-RYM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-RYM"/>
             <field name="trauma_level">one</field>
@@ -769,6 +825,7 @@
         </record>
         <record id="institution_HC4-13-RKF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-RKF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-RKF"/>
             <field name="trauma_level">one</field>
@@ -781,6 +838,7 @@
         </record>
         <record id="institution_HC4-13-RKR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-RKR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-RKR"/>
             <field name="trauma_level">one</field>
@@ -793,6 +851,7 @@
         </record>
         <record id="institution_HC4-13-RKP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-RKP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-RKP"/>
             <field name="trauma_level">one</field>
@@ -805,6 +864,7 @@
         </record>
         <record id="institution_HC4-13-SBY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-SBY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-SBY"/>
             <field name="trauma_level">one</field>
@@ -817,6 +877,7 @@
         </record>
         <record id="institution_HC4-13-SPD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-SPD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-SPD"/>
             <field name="trauma_level">one</field>
@@ -829,6 +890,7 @@
         </record>
         <record id="institution_HC4-13-THT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-THT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-THT"/>
             <field name="trauma_level">one</field>
@@ -841,6 +903,7 @@
         </record>
         <record id="institution_HC4-13-TLG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-TLG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-TLG"/>
             <field name="trauma_level">one</field>
@@ -853,6 +916,7 @@
         </record>
         <record id="institution_HC4-13-VTD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-VTD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-VTD"/>
             <field name="trauma_level">one</field>
@@ -865,6 +929,7 @@
         </record>
         <record id="institution_HC4-13-YKT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-13-YKT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-13-YKT"/>
             <field name="trauma_level">one</field>
@@ -877,6 +942,7 @@
         </record>
         <record id="institution_HC3-09-ASK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-ASK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-ASK"/>
             <field name="trauma_level">one</field>
@@ -889,6 +955,7 @@
         </record>
         <record id="institution_HC3-09-CCN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-CCN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-CCN"/>
             <field name="trauma_level">one</field>
@@ -901,6 +968,7 @@
         </record>
         <record id="institution_HC3-09-CCD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-CCD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-CCD"/>
             <field name="trauma_level">one</field>
@@ -913,6 +981,7 @@
         </record>
         <record id="institution_HC3-09-CVY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-CVY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-CVY"/>
             <field name="trauma_level">one</field>
@@ -925,6 +994,7 @@
         </record>
         <record id="institution_HC3-09-CHC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-CHC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-CHC"/>
             <field name="trauma_level">one</field>
@@ -937,6 +1007,7 @@
         </record>
         <record id="institution_HC3-09-CPS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-CPS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-CPS"/>
             <field name="trauma_level">one</field>
@@ -949,6 +1020,7 @@
         </record>
         <record id="institution_HC3-09-DIA" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-DIA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-DIA"/>
             <field name="trauma_level">one</field>
@@ -961,6 +1033,7 @@
         </record>
         <record id="institution_HC3-09-GRG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-GRG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-GRG"/>
             <field name="trauma_level">one</field>
@@ -973,6 +1046,7 @@
         </record>
         <record id="institution_HC3-09-GTV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-GTV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-GTV"/>
             <field name="trauma_level">one</field>
@@ -985,6 +1059,7 @@
         </record>
         <record id="institution_HC3-09-GNL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-GNL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-GNL"/>
             <field name="trauma_level">one</field>
@@ -997,6 +1072,7 @@
         </record>
         <record id="institution_HC3-09-HPW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-HPW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-HPW"/>
             <field name="trauma_level">one</field>
@@ -1009,6 +1085,7 @@
         </record>
         <record id="institution_HC3-09-KGV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-KGV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-KGV"/>
             <field name="trauma_level">one</field>
@@ -1021,6 +1098,7 @@
         </record>
         <record id="institution_HC3-09-LWD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-LWD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-LWD"/>
             <field name="trauma_level">one</field>
@@ -1033,6 +1111,7 @@
         </record>
         <record id="institution_HC3-09-LUC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-LUC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-LUC"/>
             <field name="trauma_level">one</field>
@@ -1045,6 +1124,7 @@
         </record>
         <record id="institution_HC3-09-MLD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-MLD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-MLD"/>
             <field name="trauma_level">one</field>
@@ -1057,6 +1137,7 @@
         </record>
         <record id="institution_HC3-09-MPT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-MPT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-MPT"/>
             <field name="trauma_level">one</field>
@@ -1069,6 +1150,7 @@
         </record>
         <record id="institution_HC3-09-MTP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-MTP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-MTP"/>
             <field name="trauma_level">one</field>
@@ -1081,6 +1163,7 @@
         </record>
         <record id="institution_HC3-09-RMB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-RMB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-RMB"/>
             <field name="trauma_level">one</field>
@@ -1093,6 +1176,7 @@
         </record>
         <record id="institution_HC3-09-SDB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-09-SDB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-09-SDB"/>
             <field name="trauma_level">one</field>
@@ -1105,6 +1189,7 @@
         </record>
         <record id="institution_HC1-01-ALP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-ALP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-ALP"/>
             <field name="trauma_level">one</field>
@@ -1117,6 +1202,7 @@
         </record>
         <record id="institution_HC1-01-BLB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-BLB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-BLB"/>
             <field name="trauma_level">one</field>
@@ -1129,6 +1215,7 @@
         </record>
         <record id="institution_HC1-01-CHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-CHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-CHL"/>
             <field name="trauma_level">one</field>
@@ -1141,6 +1228,7 @@
         </record>
         <record id="institution_HC1-01-CHP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-CHP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-CHP"/>
             <field name="trauma_level">one</field>
@@ -1153,6 +1241,7 @@
         </record>
         <record id="institution_HC1-01-COM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-COM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-COM"/>
             <field name="trauma_level">one</field>
@@ -1165,6 +1254,7 @@
         </record>
         <record id="institution_HC1-01-CTG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-CTG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-CTG"/>
             <field name="trauma_level">one</field>
@@ -1177,6 +1267,7 @@
         </record>
         <record id="institution_HC1-01-DAL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-DAL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-DAL"/>
             <field name="trauma_level">one</field>
@@ -1189,6 +1280,7 @@
         </record>
         <record id="institution_HC1-01-DHT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-DHT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-DHT"/>
             <field name="trauma_level">one</field>
@@ -1201,6 +1293,7 @@
         </record>
         <record id="institution_HC1-01-DRW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-DRW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-DRW"/>
             <field name="trauma_level">one</field>
@@ -1213,6 +1306,7 @@
         </record>
         <record id="institution_HC1-01-DPK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-DPK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-DPK"/>
             <field name="trauma_level">one</field>
@@ -1225,6 +1319,7 @@
         </record>
         <record id="institution_HC1-01-EQB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-EQB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-EQB"/>
             <field name="trauma_level">one</field>
@@ -1237,6 +1332,7 @@
         </record>
         <record id="institution_HC1-01-EDM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-EDM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-EDM"/>
             <field name="trauma_level">one</field>
@@ -1249,6 +1345,7 @@
         </record>
         <record id="institution_HC1-01-ESH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-ESH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-ESH"/>
             <field name="trauma_level">one</field>
@@ -1261,6 +1358,7 @@
         </record>
         <record id="institution_HC1-01-GVC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-GVC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-GVC"/>
             <field name="trauma_level">one</field>
@@ -1273,6 +1371,7 @@
         </record>
         <record id="institution_HC1-01-GSP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-GSP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-GSP"/>
             <field name="trauma_level">one</field>
@@ -1285,6 +1384,7 @@
         </record>
         <record id="institution_HC1-01-GTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-GTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-GTN"/>
             <field name="trauma_level">one</field>
@@ -1297,6 +1397,7 @@
         </record>
         <record id="institution_HC1-01-HAG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-HAG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-HAG"/>
             <field name="trauma_level">one</field>
@@ -1309,6 +1410,7 @@
         </record>
         <record id="institution_HC1-01-HLD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-HLD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-HLD"/>
             <field name="trauma_level">one</field>
@@ -1321,6 +1423,7 @@
         </record>
         <record id="institution_HC1-01-HVW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-HVW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-HVW"/>
             <field name="trauma_level">one</field>
@@ -1333,6 +1436,7 @@
         </record>
         <record id="institution_HC1-01-JCL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-JCL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-JCL"/>
             <field name="trauma_level">one</field>
@@ -1345,6 +1449,7 @@
         </record>
         <record id="institution_HC1-01-KWT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-KWT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-KWT"/>
             <field name="trauma_level">one</field>
@@ -1357,6 +1462,7 @@
         </record>
         <record id="institution_HC1-01-LTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-LTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-LTN"/>
             <field name="trauma_level">one</field>
@@ -1369,6 +1475,7 @@
         </record>
         <record id="institution_HC1-01-LWJ" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-LWJ</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-LWJ"/>
             <field name="trauma_level">one</field>
@@ -1381,6 +1488,7 @@
         </record>
         <record id="institution_HC1-01-MJG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-MJG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-MJG"/>
             <field name="trauma_level">one</field>
@@ -1393,6 +1501,7 @@
         </record>
         <record id="institution_HC1-01-MIS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-MIS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-MIS"/>
             <field name="trauma_level">one</field>
@@ -1405,6 +1514,7 @@
         </record>
         <record id="institution_HC1-01-MBK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-MBK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-MBK"/>
             <field name="trauma_level">one</field>
@@ -1417,6 +1527,7 @@
         </record>
         <record id="institution_HC1-01-MAX" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-MAX</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-MAX"/>
             <field name="trauma_level">one</field>
@@ -1429,6 +1540,7 @@
         </record>
         <record id="institution_HC1-01-MTC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-MTC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-MTC"/>
             <field name="trauma_level">one</field>
@@ -1441,6 +1553,7 @@
         </record>
         <record id="institution_HC1-01-MCD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-MCD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-MCD"/>
             <field name="trauma_level">one</field>
@@ -1453,6 +1566,7 @@
         </record>
         <record id="institution_HC1-01-NCD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-NCD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-NCD"/>
             <field name="trauma_level">one</field>
@@ -1465,6 +1579,7 @@
         </record>
         <record id="institution_HC1-01-NMG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-NMG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-NMG"/>
             <field name="trauma_level">one</field>
@@ -1477,6 +1592,7 @@
         </record>
         <record id="institution_HC1-01-OKG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-OKG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-OKG"/>
             <field name="trauma_level">one</field>
@@ -1489,6 +1605,7 @@
         </record>
         <record id="institution_HC1-01-OLG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-OLG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-OLG"/>
             <field name="trauma_level">one</field>
@@ -1501,6 +1618,7 @@
         </record>
         <record id="institution_HC1-01-ORF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-ORF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-ORF"/>
             <field name="trauma_level">one</field>
@@ -1513,6 +1631,7 @@
         </record>
         <record id="institution_HC1-01-PAD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-PAD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-PAD"/>
             <field name="trauma_level">one</field>
@@ -1525,6 +1644,7 @@
         </record>
         <record id="institution_HC1-01-PKR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-PKR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-PKR"/>
             <field name="trauma_level">one</field>
@@ -1537,6 +1657,7 @@
         </record>
         <record id="institution_HC1-01-PTR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-PTR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-PTR"/>
             <field name="trauma_level">one</field>
@@ -1549,6 +1670,7 @@
         </record>
         <record id="institution_HC1-01-RDH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-RDH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-RDH"/>
             <field name="trauma_level">one</field>
@@ -1561,6 +1683,7 @@
         </record>
         <record id="institution_HC1-01-RKH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-RKH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-RKH"/>
             <field name="trauma_level">one</field>
@@ -1573,6 +1696,7 @@
         </record>
         <record id="institution_HC1-01-RTT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-RTT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-RTT"/>
             <field name="trauma_level">one</field>
@@ -1585,6 +1709,7 @@
         </record>
         <record id="institution_HC1-01-STM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-STM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-STM"/>
             <field name="trauma_level">one</field>
@@ -1597,6 +1722,7 @@
         </record>
         <record id="institution_HC1-01-SVG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-SVG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-SVG"/>
             <field name="trauma_level">one</field>
@@ -1609,6 +1735,7 @@
         </record>
         <record id="institution_HC1-01-SHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-SHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-SHL"/>
             <field name="trauma_level">one</field>
@@ -1621,6 +1748,7 @@
         </record>
         <record id="institution_HC1-01-SUN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-SUN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-SUN"/>
             <field name="trauma_level">one</field>
@@ -1633,6 +1761,7 @@
         </record>
         <record id="institution_HC1-01-WWR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-01-WWR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-01-WWR"/>
             <field name="trauma_level">one</field>
@@ -1645,6 +1774,7 @@
         </record>
         <record id="institution_HC4-12-BLF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-BLF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-BLF"/>
             <field name="trauma_level">one</field>
@@ -1657,6 +1787,7 @@
         </record>
         <record id="institution_HC4-12-BMY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-BMY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-BMY"/>
             <field name="trauma_level">one</field>
@@ -1669,6 +1800,7 @@
         </record>
         <record id="institution_HC4-12-CHT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-CHT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-CHT"/>
             <field name="trauma_level">one</field>
@@ -1681,6 +1813,7 @@
         </record>
         <record id="institution_HC4-12-CHD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-CHD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-CHD"/>
             <field name="trauma_level">one</field>
@@ -1693,6 +1826,7 @@
         </record>
         <record id="institution_HC4-12-CKY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-CKY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-CKY"/>
             <field name="trauma_level">one</field>
@@ -1705,6 +1839,7 @@
         </record>
         <record id="institution_HC4-12-DWN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-DWN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-DWN"/>
             <field name="trauma_level">one</field>
@@ -1717,6 +1852,7 @@
         </record>
         <record id="institution_HC4-12-HRN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-HRN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-HRN"/>
             <field name="trauma_level">one</field>
@@ -1729,6 +1865,7 @@
         </record>
         <record id="institution_HC4-12-HRW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-HRW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-HRW"/>
             <field name="trauma_level">one</field>
@@ -1741,6 +1878,7 @@
         </record>
         <record id="institution_HC4-12-LCL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-LCL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-LCL"/>
             <field name="trauma_level">one</field>
@@ -1753,6 +1891,7 @@
         </record>
         <record id="institution_HC4-12-MCP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-MCP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-MCP"/>
             <field name="trauma_level">one</field>
@@ -1765,6 +1904,7 @@
         </record>
         <record id="institution_HC4-12-MGL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-MGL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-MGL"/>
             <field name="trauma_level">one</field>
@@ -1777,6 +1917,7 @@
         </record>
         <record id="institution_HC4-12-NPT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-NPT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-NPT"/>
             <field name="trauma_level">one</field>
@@ -1789,6 +1930,7 @@
         </record>
         <record id="institution_HC4-12-OEL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-OEL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-OEL"/>
             <field name="trauma_level">one</field>
@@ -1801,6 +1943,7 @@
         </record>
         <record id="institution_HC4-12-PRS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-PRS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-PRS"/>
             <field name="trauma_level">one</field>
@@ -1813,6 +1956,7 @@
         </record>
         <record id="institution_HC4-12-PVL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-PVL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-PVL"/>
             <field name="trauma_level">one</field>
@@ -1825,6 +1969,7 @@
         </record>
         <record id="institution_HC4-12-RYF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-12-RYF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-12-RYF"/>
             <field name="trauma_level">one</field>
@@ -1837,6 +1982,7 @@
         </record>
         <record id="institution_HC2-04-BAN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-BAN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-BAN"/>
             <field name="trauma_level">one</field>
@@ -1849,6 +1995,7 @@
         </record>
         <record id="institution_HC2-04-BBY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-BBY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-BBY"/>
             <field name="trauma_level">one</field>
@@ -1861,6 +2008,7 @@
         </record>
         <record id="institution_HC2-04-CAS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-CAS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-CAS"/>
             <field name="trauma_level">one</field>
@@ -1873,6 +2021,7 @@
         </record>
         <record id="institution_HC2-04-CHP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-CHP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-CHP"/>
             <field name="trauma_level">one</field>
@@ -1885,6 +2034,7 @@
         </record>
         <record id="institution_HC2-04-FPT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-FPT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-FPT"/>
             <field name="trauma_level">one</field>
@@ -1897,6 +2047,7 @@
         </record>
         <record id="institution_HC2-04-FHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-FHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-FHL"/>
             <field name="trauma_level">one</field>
@@ -1909,6 +2060,7 @@
         </record>
         <record id="institution_HC2-04-FLS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-FLS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-FLS"/>
             <field name="trauma_level">one</field>
@@ -1921,6 +2073,7 @@
         </record>
         <record id="institution_HC2-04-FFV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-FFV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-FFV"/>
             <field name="trauma_level">one</field>
@@ -1933,6 +2086,7 @@
         </record>
         <record id="institution_HC2-04-HBY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-HBY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-HBY"/>
             <field name="trauma_level">one</field>
@@ -1945,6 +2099,7 @@
         </record>
         <record id="institution_HC2-04-KBY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-KBY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-KBY"/>
             <field name="trauma_level">one</field>
@@ -1957,6 +2112,7 @@
         </record>
         <record id="institution_HC2-04-MCL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-MCL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-MCL"/>
             <field name="trauma_level">one</field>
@@ -1969,6 +2125,7 @@
         </record>
         <record id="institution_HC2-04-MTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-MTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-MTN"/>
             <field name="trauma_level">one</field>
@@ -1981,6 +2138,7 @@
         </record>
         <record id="institution_HC2-04-MPT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-MPT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-MPT"/>
             <field name="trauma_level">one</field>
@@ -1993,6 +2151,7 @@
         </record>
         <record id="institution_HC2-04-NSC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-NSC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-NSC"/>
             <field name="trauma_level">one</field>
@@ -2005,6 +2164,7 @@
         </record>
         <record id="institution_HC2-04-PAT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-PAT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-PAT"/>
             <field name="trauma_level">one</field>
@@ -2017,6 +2177,7 @@
         </record>
         <record id="institution_HC2-04-PAP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-PAP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-PAP"/>
             <field name="trauma_level">one</field>
@@ -2029,6 +2190,7 @@
         </record>
         <record id="institution_HC2-04-SMB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-SMB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-SMB"/>
             <field name="trauma_level">one</field>
@@ -2041,6 +2203,7 @@
         </record>
         <record id="institution_HC2-04-SPH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-SPH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-SPH"/>
             <field name="trauma_level">one</field>
@@ -2053,6 +2216,7 @@
         </record>
         <record id="institution_HC2-04-SRV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-04-SRV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-04-SRV"/>
             <field name="trauma_level">one</field>
@@ -2065,6 +2229,7 @@
         </record>
         <record id="institution_HC2-06-ACH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-ACH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-ACH"/>
             <field name="trauma_level">one</field>
@@ -2077,6 +2242,7 @@
         </record>
         <record id="institution_HC2-06-BAM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BAM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BAM"/>
             <field name="trauma_level">one</field>
@@ -2089,6 +2255,7 @@
         </record>
         <record id="institution_HC2-06-BEN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BEN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BEN"/>
             <field name="trauma_level">one</field>
@@ -2101,6 +2268,7 @@
         </record>
         <record id="institution_HC2-06-BJF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BJF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BJF"/>
             <field name="trauma_level">one</field>
@@ -2113,6 +2281,7 @@
         </record>
         <record id="institution_HC2-06-BSG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BSG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BSG"/>
             <field name="trauma_level">one</field>
@@ -2125,6 +2294,7 @@
         </record>
         <record id="institution_HC2-06-BOH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BOH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BOH"/>
             <field name="trauma_level">one</field>
@@ -2137,6 +2307,7 @@
         </record>
         <record id="institution_HC2-06-BRB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BRB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BRB"/>
             <field name="trauma_level">one</field>
@@ -2149,6 +2320,7 @@
         </record>
         <record id="institution_HC2-06-BTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-BTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-BTN"/>
             <field name="trauma_level">one</field>
@@ -2161,6 +2333,7 @@
         </record>
         <record id="institution_HC2-06-CMT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-CMT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-CMT"/>
             <field name="trauma_level">one</field>
@@ -2173,6 +2346,7 @@
         </record>
         <record id="institution_HC2-06-CSV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-CSV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-CSV"/>
             <field name="trauma_level">one</field>
@@ -2185,6 +2359,7 @@
         </record>
         <record id="institution_HC2-06-EXC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-EXC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-EXC"/>
             <field name="trauma_level">one</field>
@@ -2197,6 +2372,7 @@
         </record>
         <record id="institution_HC2-06-GBT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-GBT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-GBT"/>
             <field name="trauma_level">one</field>
@@ -2209,6 +2385,7 @@
         </record>
         <record id="institution_HC2-06-JFV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-JFV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-JFV"/>
             <field name="trauma_level">one</field>
@@ -2221,6 +2398,7 @@
         </record>
         <record id="institution_HC2-06-LHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-LHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-LHL"/>
             <field name="trauma_level">one</field>
@@ -2233,6 +2411,7 @@
         </record>
         <record id="institution_HC2-06-MNE" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-MNE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-MNE"/>
             <field name="trauma_level">one</field>
@@ -2245,6 +2424,7 @@
         </record>
         <record id="institution_HC2-06-MNG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-MNG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-MNG"/>
             <field name="trauma_level">one</field>
@@ -2257,6 +2437,7 @@
         </record>
         <record id="institution_HC2-06-MHB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-MHB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-MHB"/>
             <field name="trauma_level">one</field>
@@ -2269,6 +2450,7 @@
         </record>
         <record id="institution_HC2-06-ORS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-ORS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-ORS"/>
             <field name="trauma_level">one</field>
@@ -2281,6 +2463,7 @@
         </record>
         <record id="institution_HC2-06-RBY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-RBY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-RBY"/>
             <field name="trauma_level">one</field>
@@ -2293,6 +2476,7 @@
         </record>
         <record id="institution_HC2-06-SAB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-SAB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-SAB"/>
             <field name="trauma_level">one</field>
@@ -2305,6 +2489,7 @@
         </record>
         <record id="institution_HC2-06-STN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-STN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-STN"/>
             <field name="trauma_level">one</field>
@@ -2317,6 +2502,7 @@
         </record>
         <record id="institution_HC2-06-STP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-STP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-STP"/>
             <field name="trauma_level">one</field>
@@ -2329,6 +2515,7 @@
         </record>
         <record id="institution_HC2-06-SGT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-SGT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-SGT"/>
             <field name="trauma_level">one</field>
@@ -2341,6 +2528,7 @@
         </record>
         <record id="institution_HC2-06-WWD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-WWD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-WWD"/>
             <field name="trauma_level">one</field>
@@ -2353,6 +2541,7 @@
         </record>
         <record id="institution_HC2-06-WTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-06-WTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-06-WTN"/>
             <field name="trauma_level">one</field>
@@ -2365,6 +2554,7 @@
         </record>
         <record id="institution_HC1-14-BAR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-BAR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-BAR"/>
             <field name="trauma_level">one</field>
@@ -2377,6 +2567,7 @@
         </record>
         <record id="institution_HC1-14-BGW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-BGW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-BGW"/>
             <field name="trauma_level">one</field>
@@ -2389,6 +2580,7 @@
         </record>
         <record id="institution_HC1-14-BPD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-BPD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-BPD"/>
             <field name="trauma_level">one</field>
@@ -2401,6 +2593,7 @@
         </record>
         <record id="institution_HC1-14-CTV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-CTV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-CTV"/>
             <field name="trauma_level">one</field>
@@ -2413,6 +2606,7 @@
         </record>
         <record id="institution_HC1-14-CHP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-CHP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-CHP"/>
             <field name="trauma_level">one</field>
@@ -2425,6 +2619,7 @@
         </record>
         <record id="institution_HC1-14-CON" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-CON</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-CON"/>
             <field name="trauma_level">one</field>
@@ -2437,6 +2632,7 @@
         </record>
         <record id="institution_HC1-14-CRD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-CRD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-CRD"/>
             <field name="trauma_level">one</field>
@@ -2449,6 +2645,7 @@
         </record>
         <record id="institution_HC1-14-EWT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-EWT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-EWT"/>
             <field name="trauma_level">one</field>
@@ -2461,6 +2658,7 @@
         </record>
         <record id="institution_HC1-14-GLF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-GLF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-GLF"/>
             <field name="trauma_level">one</field>
@@ -2473,6 +2671,7 @@
         </record>
         <record id="institution_HC1-14-GTP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-GTP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-GTP"/>
             <field name="trauma_level">one</field>
@@ -2485,6 +2684,7 @@
         </record>
         <record id="institution_HC1-14-GYH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-GYH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-GYH"/>
             <field name="trauma_level">one</field>
@@ -2497,6 +2697,7 @@
         </record>
         <record id="institution_HC1-14-HKH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-HKH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-HKH"/>
             <field name="trauma_level">one</field>
@@ -2509,6 +2710,7 @@
         </record>
         <record id="institution_HC1-14-KTT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-KTT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-KTT"/>
             <field name="trauma_level">one</field>
@@ -2521,6 +2723,7 @@
         </record>
         <record id="institution_HC1-14-LIN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-LIN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-LIN"/>
             <field name="trauma_level">one</field>
@@ -2533,6 +2736,7 @@
         </record>
         <record id="institution_HC1-14-LVL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-LVL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-LVL"/>
             <field name="trauma_level">one</field>
@@ -2545,6 +2749,7 @@
         </record>
         <record id="institution_HC1-14-OLH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-OLH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-OLH"/>
             <field name="trauma_level">one</field>
@@ -2557,6 +2762,7 @@
         </record>
         <record id="institution_HC1-14-PTH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-PTH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-PTH"/>
             <field name="trauma_level">one</field>
@@ -2569,6 +2775,7 @@
         </record>
         <record id="institution_HC1-14-RED" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-RED</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-RED"/>
             <field name="trauma_level">one</field>
@@ -2581,6 +2788,7 @@
         </record>
         <record id="institution_HC1-14-RRD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-RRD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-RRD"/>
             <field name="trauma_level">one</field>
@@ -2593,6 +2801,7 @@
         </record>
         <record id="institution_HC1-14-STJ" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-STJ</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-STJ"/>
             <field name="trauma_level">one</field>
@@ -2605,6 +2814,7 @@
         </record>
         <record id="institution_HC1-14-SLI" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-SLI</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-SLI"/>
             <field name="trauma_level">one</field>
@@ -2617,6 +2827,7 @@
         </record>
         <record id="institution_HC1-14-SYD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-SYD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-SYD"/>
             <field name="trauma_level">one</field>
@@ -2629,6 +2840,7 @@
         </record>
         <record id="institution_HC1-14-TRE" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-TRE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-TRE"/>
             <field name="trauma_level">one</field>
@@ -2641,6 +2853,7 @@
         </record>
         <record id="institution_HC1-14-TRO" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-TRO</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-TRO"/>
             <field name="trauma_level">one</field>
@@ -2653,6 +2866,7 @@
         </record>
         <record id="institution_HC1-14-WTF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-WTF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-WTF"/>
             <field name="trauma_level">one</field>
@@ -2665,6 +2879,7 @@
         </record>
         <record id="institution_HC1-14-WTM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-14-WTM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-14-WTM"/>
             <field name="trauma_level">one</field>
@@ -2677,6 +2892,7 @@
         </record>
         <record id="institution_HC4-11-ABD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-ABD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-ABD"/>
             <field name="trauma_level">one</field>
@@ -2689,6 +2905,7 @@
         </record>
         <record id="institution_HC4-11-BLC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-BLC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-BLC"/>
             <field name="trauma_level">one</field>
@@ -2701,6 +2918,7 @@
         </record>
         <record id="institution_HC4-11-BLV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-BLV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-BLV"/>
             <field name="trauma_level">one</field>
@@ -2713,6 +2931,7 @@
         </record>
         <record id="institution_HC4-11-BRR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-BRR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-BRR"/>
             <field name="trauma_level">one</field>
@@ -2725,6 +2944,7 @@
         </record>
         <record id="institution_HC4-11-BSR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-BSR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-BSR"/>
             <field name="trauma_level">one</field>
@@ -2737,6 +2957,7 @@
         </record>
         <record id="institution_HC4-11-BSV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-BSV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-BSV"/>
             <field name="trauma_level">one</field>
@@ -2749,6 +2970,7 @@
         </record>
         <record id="institution_HC4-11-EMC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-EMC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-EMC"/>
             <field name="trauma_level">one</field>
@@ -2761,6 +2983,7 @@
         </record>
         <record id="institution_HC4-11-FFP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-FFP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-FFP"/>
             <field name="trauma_level">one</field>
@@ -2773,6 +2996,7 @@
         </record>
         <record id="institution_HC4-11-GGH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-GGH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-GGH"/>
             <field name="trauma_level">one</field>
@@ -2785,6 +3009,7 @@
         </record>
         <record id="institution_HC4-11-JCN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-JCN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-JCN"/>
             <field name="trauma_level">one</field>
@@ -2797,6 +3022,7 @@
         </record>
         <record id="institution_HC4-11-LCV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-LCV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-LCV"/>
             <field name="trauma_level">one</field>
@@ -2809,6 +3035,7 @@
         </record>
         <record id="institution_HC4-11-MGT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-MGT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-MGT"/>
             <field name="trauma_level">one</field>
@@ -2821,6 +3048,7 @@
         </record>
         <record id="institution_HC4-11-MVN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-MVN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-MVN"/>
             <field name="trauma_level">one</field>
@@ -2833,6 +3061,7 @@
         </record>
         <record id="institution_HC4-11-MQT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-MQT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-MQT"/>
             <field name="trauma_level">one</field>
@@ -2845,6 +3074,7 @@
         </record>
         <record id="institution_HC4-11-MVL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-MVL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-MVL"/>
             <field name="trauma_level">one</field>
@@ -2857,6 +3087,7 @@
         </record>
         <record id="institution_HC4-11-NMK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-NMK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-NMK"/>
             <field name="trauma_level">one</field>
@@ -2869,6 +3100,7 @@
         </record>
         <record id="institution_HC4-11-NMC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-NMC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-NMC"/>
             <field name="trauma_level">one</field>
@@ -2881,6 +3113,7 @@
         </record>
         <record id="institution_HC4-11-PPR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-PPR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-PPR"/>
             <field name="trauma_level">one</field>
@@ -2893,6 +3126,7 @@
         </record>
         <record id="institution_HC4-11-PRT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-PRT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-PRT"/>
             <field name="trauma_level">one</field>
@@ -2905,6 +3139,7 @@
         </record>
         <record id="institution_HC4-11-PPT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-PPT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-PPT"/>
             <field name="trauma_level">one</field>
@@ -2917,6 +3152,7 @@
         </record>
         <record id="institution_HC4-11-STC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-STC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-STC"/>
             <field name="trauma_level">one</field>
@@ -2929,6 +3165,7 @@
         </record>
         <record id="institution_HC4-11-SHF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-SHF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-SHF"/>
             <field name="trauma_level">one</field>
@@ -2941,6 +3178,7 @@
         </record>
         <record id="institution_HC4-11-SRF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC4-11-SRF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC4-11-SRF"/>
             <field name="trauma_level">one</field>
@@ -2953,6 +3191,7 @@
         </record>
         <record id="institution_HC3-08-ADP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-ADP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-ADP"/>
             <field name="trauma_level">one</field>
@@ -2965,6 +3204,7 @@
         </record>
         <record id="institution_HC3-08-BRT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-BRT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-BRT"/>
             <field name="trauma_level">one</field>
@@ -2977,6 +3217,7 @@
         </record>
         <record id="institution_HC3-08-CMB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-CMB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-CMB"/>
             <field name="trauma_level">one</field>
@@ -2989,6 +3230,7 @@
         </record>
         <record id="institution_HC3-08-CDP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-CDP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-CDP"/>
             <field name="trauma_level">one</field>
@@ -3001,6 +3243,7 @@
         </record>
         <record id="institution_HC3-08-CTH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-CTH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-CTH"/>
             <field name="trauma_level">one</field>
@@ -3013,6 +3256,7 @@
         </record>
         <record id="institution_HC3-08-CSM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-CSM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-CSM"/>
             <field name="trauma_level">one</field>
@@ -3025,6 +3269,7 @@
         </record>
         <record id="institution_HC3-08-FLK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-FLK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-FLK"/>
             <field name="trauma_level">one</field>
@@ -3037,6 +3282,7 @@
         </record>
         <record id="institution_HC3-08-GLD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-GLD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-GLD"/>
             <field name="trauma_level">one</field>
@@ -3049,6 +3295,7 @@
         </record>
         <record id="institution_HC3-08-GLE" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-GLE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-GLE"/>
             <field name="trauma_level">one</field>
@@ -3061,6 +3308,7 @@
         </record>
         <record id="institution_HC3-08-GWL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-GWL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-GWL"/>
             <field name="trauma_level">one</field>
@@ -3073,6 +3321,7 @@
         </record>
         <record id="institution_HC3-08-GVL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-GVL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-GVL"/>
             <field name="trauma_level">one</field>
@@ -3085,6 +3334,7 @@
         </record>
         <record id="institution_HC3-08-GNP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-GNP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-GNP"/>
             <field name="trauma_level">one</field>
@@ -3097,6 +3347,7 @@
         </record>
         <record id="institution_HC3-08-JHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-JHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-JHL"/>
             <field name="trauma_level">one</field>
@@ -3109,6 +3360,7 @@
         </record>
         <record id="institution_HC3-08-LOT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-LOT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-LOT"/>
             <field name="trauma_level">one</field>
@@ -3121,6 +3373,7 @@
         </record>
         <record id="institution_HC3-08-MTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-MTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-MTN"/>
             <field name="trauma_level">one</field>
@@ -3133,6 +3386,7 @@
         </record>
         <record id="institution_HC3-08-MTC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-MTC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-MTC"/>
             <field name="trauma_level">one</field>
@@ -3145,6 +3399,7 @@
         </record>
         <record id="institution_HC3-08-MTS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-MTS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-MTS"/>
             <field name="trauma_level">one</field>
@@ -3157,6 +3412,7 @@
         </record>
         <record id="institution_HC3-08-RHT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-RHT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-RHT"/>
             <field name="trauma_level">one</field>
@@ -3169,6 +3425,7 @@
         </record>
         <record id="institution_HC3-08-STP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-STP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-STP"/>
             <field name="trauma_level">one</field>
@@ -3181,6 +3438,7 @@
         </record>
         <record id="institution_HC3-08-SMT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-SMT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-SMT"/>
             <field name="trauma_level">one</field>
@@ -3193,6 +3451,7 @@
         </record>
         <record id="institution_HC3-08-SPF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-SPF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-SPF"/>
             <field name="trauma_level">one</field>
@@ -3205,6 +3464,7 @@
         </record>
         <record id="institution_HC3-08-TWH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-08-TWH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-08-TWH"/>
             <field name="trauma_level">one</field>
@@ -3217,6 +3477,7 @@
         </record>
         <record id="institution_HC2-05-ALB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-ALB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-ALB"/>
             <field name="trauma_level">one</field>
@@ -3229,6 +3490,7 @@
         </record>
         <record id="institution_HC2-05-ALM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-ALM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-ALM"/>
             <field name="trauma_level">one</field>
@@ -3241,6 +3503,7 @@
         </record>
         <record id="institution_HC2-05-ABY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-ABY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-ABY"/>
             <field name="trauma_level">one</field>
@@ -3253,6 +3516,7 @@
         </record>
         <record id="institution_HC2-05-BEL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-BEL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-BEL"/>
             <field name="trauma_level">one</field>
@@ -3265,6 +3529,7 @@
         </record>
         <record id="institution_HC2-05-BYG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-BYG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-BYG"/>
             <field name="trauma_level">one</field>
@@ -3277,6 +3542,7 @@
         </record>
         <record id="institution_HC2-05-BRA" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-BRA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-BRA"/>
             <field name="trauma_level">one</field>
@@ -3289,6 +3555,7 @@
         </record>
         <record id="institution_HC2-05-CST" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-CST</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-CST"/>
             <field name="trauma_level">one</field>
@@ -3301,6 +3568,7 @@
         </record>
         <record id="institution_HC2-05-CLC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-CLC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-CLC"/>
             <field name="trauma_level">one</field>
@@ -3313,6 +3581,7 @@
         </record>
         <record id="institution_HC2-05-CLM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-CLM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-CLM"/>
             <field name="trauma_level">one</field>
@@ -3325,6 +3594,7 @@
         </record>
         <record id="institution_HC2-05-EFD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-EFD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-EFD"/>
             <field name="trauma_level">one</field>
@@ -3337,6 +3607,7 @@
         </record>
         <record id="institution_HC2-05-FSH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-FSH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-FSH"/>
             <field name="trauma_level">one</field>
@@ -3349,6 +3620,7 @@
         </record>
         <record id="institution_HC2-05-FTR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-FTR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-FTR"/>
             <field name="trauma_level">one</field>
@@ -3361,6 +3633,7 @@
         </record>
         <record id="institution_HC2-05-GYL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-GYL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-GYL"/>
             <field name="trauma_level">one</field>
@@ -3373,6 +3646,7 @@
         </record>
         <record id="institution_HC2-05-HSD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-HSD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-HSD"/>
             <field name="trauma_level">one</field>
@@ -3385,6 +3659,7 @@
         </record>
         <record id="institution_HC2-05-HWH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-HWH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-HWH"/>
             <field name="trauma_level">one</field>
@@ -3397,6 +3672,7 @@
         </record>
         <record id="institution_HC2-05-HGT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-HGT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-HGT"/>
             <field name="trauma_level">one</field>
@@ -3409,6 +3685,7 @@
         </record>
         <record id="institution_HC2-05-HTN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-HTN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-HTN"/>
             <field name="trauma_level">one</field>
@@ -3421,6 +3698,7 @@
         </record>
         <record id="institution_HC2-05-ISL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-ISL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-ISL"/>
             <field name="trauma_level">one</field>
@@ -3433,6 +3711,7 @@
         </record>
         <record id="institution_HC2-05-JFT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-JFT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-JFT"/>
             <field name="trauma_level">one</field>
@@ -3445,6 +3724,7 @@
         </record>
         <record id="institution_HC2-05-LYR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-LYR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-LYR"/>
             <field name="trauma_level">one</field>
@@ -3457,6 +3737,7 @@
         </record>
         <record id="institution_HC2-05-LRD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-LRD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-LRD"/>
             <field name="trauma_level">one</field>
@@ -3469,6 +3750,7 @@
         </record>
         <record id="institution_HC2-05-MSH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-MSH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-MSH"/>
             <field name="trauma_level">one</field>
@@ -3481,6 +3763,7 @@
         </record>
         <record id="institution_HC2-05-OCB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-OCB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-OCB"/>
             <field name="trauma_level">one</field>
@@ -3493,6 +3776,7 @@
         </record>
         <record id="institution_HC2-05-OXD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-OXD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-OXD"/>
             <field name="trauma_level">one</field>
@@ -3505,6 +3789,7 @@
         </record>
         <record id="institution_HC2-05-PTM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-PTM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-PTM"/>
             <field name="trauma_level">one</field>
@@ -3517,6 +3802,7 @@
         </record>
         <record id="institution_HC2-05-RET" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-RET</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-RET"/>
             <field name="trauma_level">one</field>
@@ -3529,6 +3815,7 @@
         </record>
         <record id="institution_HC2-05-RBB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-RBB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-RBB"/>
             <field name="trauma_level">one</field>
@@ -3541,6 +3828,7 @@
         </record>
         <record id="institution_HC2-05-RKR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-RKR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-RKR"/>
             <field name="trauma_level">one</field>
@@ -3553,6 +3841,7 @@
         </record>
         <record id="institution_HC2-05-WCT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-WCT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-WCT"/>
             <field name="trauma_level">one</field>
@@ -3565,6 +3854,7 @@
         </record>
         <record id="institution_HC2-05-WPK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC2-05-WPK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC2-05-WPK"/>
             <field name="trauma_level">one</field>
@@ -3577,6 +3867,7 @@
         </record>
         <record id="institution_HC1-03-ARC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-ARC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-ARC"/>
             <field name="trauma_level">one</field>
@@ -3589,6 +3880,7 @@
         </record>
         <record id="institution_HC1-03-BSH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-BSH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-BSH"/>
             <field name="trauma_level">one</field>
@@ -3601,6 +3893,7 @@
         </record>
         <record id="institution_HC1-03-CDV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-CDV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-CDV"/>
             <field name="trauma_level">one</field>
@@ -3613,6 +3906,7 @@
         </record>
         <record id="institution_HC1-03-DNP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-DNP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-DNP"/>
             <field name="trauma_level">one</field>
@@ -3625,6 +3919,7 @@
         </record>
         <record id="institution_HC1-03-FTH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-FTH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-FTH"/>
             <field name="trauma_level">one</field>
@@ -3637,6 +3932,7 @@
         </record>
         <record id="institution_HC1-03-HLG" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-HLG</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-HLG"/>
             <field name="trauma_level">one</field>
@@ -3649,6 +3945,7 @@
         </record>
         <record id="institution_HC1-03-ISB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-ISB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-ISB"/>
             <field name="trauma_level">one</field>
@@ -3661,6 +3958,7 @@
         </record>
         <record id="institution_HC1-03-LIW" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-LIW</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-LIW"/>
             <field name="trauma_level">one</field>
@@ -3673,6 +3971,7 @@
         </record>
         <record id="institution_HC1-03-LCL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-LCL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-LCL"/>
             <field name="trauma_level">one</field>
@@ -3685,6 +3984,7 @@
         </record>
         <record id="institution_HC1-03-MTB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-MTB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-MTB"/>
             <field name="trauma_level">one</field>
@@ -3697,6 +3997,7 @@
         </record>
         <record id="institution_HC1-03-PMT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-PMT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-PMT"/>
             <field name="trauma_level">one</field>
@@ -3709,6 +4010,7 @@
         </record>
         <record id="institution_HC1-03-RLF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-RLF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-RLF"/>
             <field name="trauma_level">one</field>
@@ -3721,6 +4023,7 @@
         </record>
         <record id="institution_HC1-03-SFT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-SFT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-SFT"/>
             <field name="trauma_level">one</field>
@@ -3733,6 +4036,7 @@
         </record>
         <record id="institution_HC1-03-TRV" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-TRV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-TRV"/>
             <field name="trauma_level">one</field>
@@ -3745,6 +4049,7 @@
         </record>
         <record id="institution_HC1-03-WHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-WHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-WHL"/>
             <field name="trauma_level">one</field>
@@ -3757,6 +4062,7 @@
         </record>
         <record id="institution_HC1-03-WHS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-WHS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-WHS"/>
             <field name="trauma_level">one</field>
@@ -3769,6 +4075,7 @@
         </record>
         <record id="institution_HC1-03-YLH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC1-03-YLH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC1-03-YLH"/>
             <field name="trauma_level">one</field>
@@ -3781,6 +4088,7 @@
         </record>
         <record id="institution_HC3-07-ALT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-ALT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-ALT"/>
             <field name="trauma_level">one</field>
@@ -3793,6 +4101,7 @@
         </record>
         <record id="institution_HC3-07-BTH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-BTH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-BTH"/>
             <field name="trauma_level">one</field>
@@ -3805,6 +4114,7 @@
         </record>
         <record id="institution_HC3-07-BKH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-BKH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-BKH"/>
             <field name="trauma_level">one</field>
@@ -3817,6 +4127,7 @@
         </record>
         <record id="institution_HC3-07-CLT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-CLT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-CLT"/>
             <field name="trauma_level">one</field>
@@ -3829,6 +4140,7 @@
         </record>
         <record id="institution_HC3-07-DSD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-DSD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-DSD"/>
             <field name="trauma_level">one</field>
@@ -3841,6 +4153,7 @@
         </record>
         <record id="institution_HC3-07-DVL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-DVL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-DVL"/>
             <field name="trauma_level">one</field>
@@ -3853,6 +4166,7 @@
         </record>
         <record id="institution_HC3-07-DWR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-DWR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-DWR"/>
             <field name="trauma_level">one</field>
@@ -3865,6 +4179,7 @@
         </record>
         <record id="institution_HC3-07-FMT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-FMT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-FMT"/>
             <field name="trauma_level">one</field>
@@ -3877,6 +4192,7 @@
         </record>
         <record id="institution_HC3-07-JKT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-JKT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-JKT"/>
             <field name="trauma_level">one</field>
@@ -3889,6 +4205,7 @@
         </record>
         <record id="institution_LHC3-07-LWR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">LHC3-07-LWR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_LHC3-07-LWR"/>
             <field name="trauma_level">one</field>
@@ -3901,6 +4218,7 @@
         </record>
         <record id="institution_HC3-07-RBN" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-RBN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-RBN"/>
             <field name="trauma_level">one</field>
@@ -3913,6 +4231,7 @@
         </record>
         <record id="institution_HC3-07-RKS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-RKS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-RKS"/>
             <field name="trauma_level">one</field>
@@ -3925,6 +4244,7 @@
         </record>
         <record id="institution_HC3-07-SHC" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-SHC</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-SHC"/>
             <field name="trauma_level">one</field>
@@ -3937,6 +4257,7 @@
         </record>
         <record id="institution_HC3-07-STT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-STT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-STT"/>
             <field name="trauma_level">one</field>
@@ -3949,6 +4270,7 @@
         </record>
         <record id="institution_HC3-07-TRY" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-TRY</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-TRY"/>
             <field name="trauma_level">one</field>
@@ -3961,6 +4283,7 @@
         </record>
         <record id="institution_HC3-07-USP" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-USP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-USP"/>
             <field name="trauma_level">one</field>
@@ -3973,6 +4296,7 @@
         </record>
         <record id="institution_HC3-07-WAB" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-WAB</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-WAB"/>
             <field name="trauma_level">one</field>
@@ -3985,6 +4309,7 @@
         </record>
         <record id="institution_HC3-07-WFD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-WFD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-WFD"/>
             <field name="trauma_level">one</field>
@@ -3997,6 +4322,7 @@
         </record>
         <record id="institution_HC3-07-WRS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-07-WRS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-07-WRS"/>
             <field name="trauma_level">one</field>
@@ -4009,6 +4335,7 @@
         </record>
         <record id="institution_HC3-10-BLK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-BLK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-BLK"/>
             <field name="trauma_level">one</field>
@@ -4021,6 +4348,7 @@
         </record>
         <record id="institution_HC3-10-BTS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-BTS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-BTS"/>
             <field name="trauma_level">one</field>
@@ -4033,6 +4361,7 @@
         </record>
         <record id="institution_HC3-10-BKS" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-BKS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-BKS"/>
             <field name="trauma_level">one</field>
@@ -4045,6 +4374,7 @@
         </record>
         <record id="institution_HC3-10-BHT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-BHT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-BHT"/>
             <field name="trauma_level">one</field>
@@ -4057,6 +4387,7 @@
         </record>
         <record id="institution_HC3-10-BFD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-BFD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-BFD"/>
             <field name="trauma_level">one</field>
@@ -4069,6 +4400,7 @@
         </record>
         <record id="institution_HC3-10-CWM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-CWM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-CWM"/>
             <field name="trauma_level">one</field>
@@ -4081,6 +4413,7 @@
         </record>
         <record id="institution_HC3-10-DLT" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-DLT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-DLT"/>
             <field name="trauma_level">one</field>
@@ -4093,6 +4426,7 @@
         </record>
         <record id="institution_HC3-10-DLD" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-DLD</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-DLD"/>
             <field name="trauma_level">one</field>
@@ -4105,6 +4439,7 @@
         </record>
         <record id="institution_HC3-10-GPL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-GPL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-GPL"/>
             <field name="trauma_level">one</field>
@@ -4117,6 +4452,7 @@
         </record>
         <record id="institution_HC3-10-GHL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-GHL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-GHL"/>
             <field name="trauma_level">one</field>
@@ -4129,6 +4465,7 @@
         </record>
         <record id="institution_HC3-10-JSM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-JSM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-JSM"/>
             <field name="trauma_level">one</field>
@@ -4141,6 +4478,7 @@
         </record>
         <record id="institution_HC3-10-LRR" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-LRR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-LRR"/>
             <field name="trauma_level">one</field>
@@ -4153,6 +4491,7 @@
         </record>
         <record id="institution_HC3-10-LTL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-LTL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-LTL"/>
             <field name="trauma_level">one</field>
@@ -4165,6 +4504,7 @@
         </record>
         <record id="institution_HC3-10-NGL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-NGL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-NGL"/>
             <field name="trauma_level">one</field>
@@ -4177,6 +4517,7 @@
         </record>
         <record id="institution_HC3-10-NWK" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-NWK</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-NWK"/>
             <field name="trauma_level">one</field>
@@ -4189,6 +4530,7 @@
         </record>
         <record id="institution_HC3-10-PTF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-PTF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-PTF"/>
             <field name="trauma_level">one</field>
@@ -4201,6 +4543,7 @@
         </record>
         <record id="institution_HC3-10-STL" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-STL</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-STL"/>
             <field name="trauma_level">one</field>
@@ -4213,6 +4556,7 @@
         </record>
         <record id="institution_HC3-10-SLM" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-SLM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-SLM"/>
             <field name="trauma_level">one</field>
@@ -4225,6 +4569,7 @@
         </record>
         <record id="institution_HC3-10-WHH" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-WHH</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-WHH"/>
             <field name="trauma_level">one</field>
@@ -4237,6 +4582,7 @@
         </record>
         <record id="institution_HC3-10-WLF" model="gnuhealth.institution">
             <field name="institution_type">primary_care</field>
+            <field name="code">HC3-10-WLF</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HC3-10-WLF"/>
             <field name="trauma_level">one</field>
