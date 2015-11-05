@@ -1,0 +1,1389 @@
+<?xml version="1.0" ?>
+<tryton>
+    <data>
+        <record id="sector_institu_04_6d6f8_HO2-04-PAH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HO2-04-PAH"/>
+        </record>
+        <record id="sector_institu_06_96371_HO2-06-SAB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HO2-06-SAB"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HO2-05-ABH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HO2-05-ABH"/>
+        </record>
+        <record id="sector_institu_05_29a38_HO2-05-PMH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HO2-05-PMH"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_PH1-01-AMH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_PH1-01-AMH"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HO1-01-BVH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HO1-01-BVH"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HO1-01-BHC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HO1-01-BHC"/>
+        </record>
+        <record id="sector_institu_01_016fa_HO1-01-HIN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HO1-01-HIN"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HO1-01-KPH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HO1-01-KPH"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_PH1-01-MAH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_PH1-01-MAH"/>
+        </record>
+        <record id="sector_institu_01_016fa_HO1-01-NCH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HO1-01-NCH"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_PH1-01-NMH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_PH1-01-NMH"/>
+        </record>
+        <record id="sector_institu_01_016fa_HO1-01-SJG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HO1-01-SJG"/>
+        </record>
+        <record id="sector_institu_01_93b3d_PH1-01-SJH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_PH1-01-SJH"/>
+        </record>
+        <record id="sector_institu_01_016fa_HO1-01-UHW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HO1-01-UHW"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HO1-01-VJH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HO1-01-VJH"/>
+        </record>
+        <record id="sector_institu_14_389f5_HO1-14-LIH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HO1-14-LIH"/>
+        </record>
+        <record id="sector_institu_14_42240_HO1-14-STH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HO1-14-STH"/>
+        </record>
+        <record id="sector_institu_03_5e899_HO1-03-PMH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HO1-03-PMH"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HO4-13-LTH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HO4-13-LTH"/>
+        </record>
+        <record id="sector_institu_13_da264_HO4-13-MPH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HO4-13-MPH"/>
+        </record>
+        <record id="sector_institu_12_38609_PH4-12-HMH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_PH4-12-HMH"/>
+        </record>
+        <record id="sector_institu_12_38609_HO4-12-MRH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_HO4-12-MRH"/>
+        </record>
+        <record id="sector_institu_12_6e47d_HO4-12-PJH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_6e47d"/>
+            <field name="name" ref="institution_HO4-12-PJH"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HO4-11-BRH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HO4-11-BRH"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HO3-09-NHH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HO3-09-NHH"/>
+        </record>
+        <record id="sector_institu_08_344cb_PH3-08-MBH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_PH3-08-MBH"/>
+        </record>
+        <record id="sector_institu_08_344cb_HO3-08-CRH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HO3-08-CRH"/>
+        </record>
+        <record id="sector_institu_08_344cb_PH3-08-DOH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_PH3-08-DOH"/>
+        </record>
+        <record id="sector_institu_08_344cb_PH3-08-MHP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_PH3-08-MHP"/>
+        </record>
+        <record id="sector_institu_07_12f15_HO3-07-FAH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HO3-07-FAH"/>
+        </record>
+        <record id="sector_institu_10_7e86b_HO3-10-SMH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
+            <field name="name" ref="institution_HO3-10-SMH"/>
+        </record>
+        <record id="sector_institu_13_ee673_HC4-13-AEN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HC4-13-AEN"/>
+        </record>
+        <record id="sector_institu_13_ee673_HC4-13-ALS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HC4-13-ALS"/>
+        </record>
+        <record id="sector_institu_13_c3381_HC4-13-BDH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HC4-13-BDH"/>
+        </record>
+        <record id="sector_institu_13_da264_HC4-13-BCC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HC4-13-BCC"/>
+        </record>
+        <record id="sector_institu_13_547e1_HC4-13-CPT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_547e1"/>
+            <field name="name" ref="institution_HC4-13-CPT"/>
+        </record>
+        <record id="sector_institu_13_c3381_HC4-13-CRG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HC4-13-CRG"/>
+        </record>
+        <record id="sector_institu_13_c3381_HC4-13-CRH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HC4-13-CRH"/>
+        </record>
+        <record id="sector_institu_13_17a1a_HC4-13-CKR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_17a1a"/>
+            <field name="name" ref="institution_HC4-13-CKR"/>
+        </record>
+        <record id="sector_institu_13_ee673_HC4-13-CBL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HC4-13-CBL"/>
+        </record>
+        <record id="sector_institu_13_edd79_HC4-13-DLW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_edd79"/>
+            <field name="name" ref="institution_HC4-13-DLW"/>
+        </record>
+        <record id="sector_institu_13_17a1a_HC4-13-FKF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_17a1a"/>
+            <field name="name" ref="institution_HC4-13-FKF"/>
+        </record>
+        <record id="sector_institu_13_da264_HC4-13-HLH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HC4-13-HLH"/>
+        </record>
+        <record id="sector_institu_13_17a1a_HC4-13-JHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_17a1a"/>
+            <field name="name" ref="institution_HC4-13-JHL"/>
+        </record>
+        <record id="sector_institu_13_c3381_HC4-13-KTS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HC4-13-KTS"/>
+        </record>
+        <record id="sector_institu_13_edd79_HC4-13-LCF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_edd79"/>
+            <field name="name" ref="institution_HC4-13-LCF"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HC4-13-LNT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HC4-13-LNT"/>
+        </record>
+        <record id="sector_institu_13_1cb88_HC4-13-MYP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_1cb88"/>
+            <field name="name" ref="institution_HC4-13-MYP"/>
+        </record>
+        <record id="sector_institu_13_47682_HC4-13-MKR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_47682"/>
+            <field name="name" ref="institution_HC4-13-MKR"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HC4-13-MCT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HC4-13-MCT"/>
+        </record>
+        <record id="sector_institu_13_edd79_HC4-13-MCH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_edd79"/>
+            <field name="name" ref="institution_HC4-13-MCH"/>
+        </record>
+        <record id="sector_institu_13_ee673_HC4-13-MRV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HC4-13-MRV"/>
+        </record>
+        <record id="sector_institu_13_547e1_HC4-13-PNT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_547e1"/>
+            <field name="name" ref="institution_HC4-13-PNT"/>
+        </record>
+        <record id="sector_institu_13_47682_HC4-13-RCS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_47682"/>
+            <field name="name" ref="institution_HC4-13-RCS"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HC4-13-RYM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HC4-13-RYM"/>
+        </record>
+        <record id="sector_institu_13_c3381_HC4-13-RKF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HC4-13-RKF"/>
+        </record>
+        <record id="sector_institu_13_547e1_HC4-13-RKR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_547e1"/>
+            <field name="name" ref="institution_HC4-13-RKR"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HC4-13-RKP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HC4-13-RKP"/>
+        </record>
+        <record id="sector_institu_13_da264_HC4-13-SBY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HC4-13-SBY"/>
+        </record>
+        <record id="sector_institu_13_ee673_HC4-13-SPD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HC4-13-SPD"/>
+        </record>
+        <record id="sector_institu_13_edd79_HC4-13-THT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_edd79"/>
+            <field name="name" ref="institution_HC4-13-THT"/>
+        </record>
+        <record id="sector_institu_13_1cb88_HC4-13-TLG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_1cb88"/>
+            <field name="name" ref="institution_HC4-13-TLG"/>
+        </record>
+        <record id="sector_institu_13_da264_HC4-13-VTD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HC4-13-VTD"/>
+        </record>
+        <record id="sector_institu_13_1cb88_HC4-13-YKT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_1cb88"/>
+            <field name="name" ref="institution_HC4-13-YKT"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-ASK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-ASK"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-CCN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-CCN"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-CCD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-CCD"/>
+        </record>
+        <record id="sector_institu_09_96076_HC3-09-CVY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_96076"/>
+            <field name="name" ref="institution_HC3-09-CVY"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-CHC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-CHC"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-CPS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-CPS"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-DIA" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-DIA"/>
+        </record>
+        <record id="sector_institu_09_96076_HC3-09-GRG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_96076"/>
+            <field name="name" ref="institution_HC3-09-GRG"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-GTV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-GTV"/>
+        </record>
+        <record id="sector_institu_09_96076_HC3-09-GNL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_96076"/>
+            <field name="name" ref="institution_HC3-09-GNL"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-HPW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-HPW"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-KGV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-KGV"/>
+        </record>
+        <record id="sector_institu_09_96076_HC3-09-LWD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_96076"/>
+            <field name="name" ref="institution_HC3-09-LWD"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-LUC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-LUC"/>
+        </record>
+        <record id="sector_institu_09_d8ad0_HC3-09-MLD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HC3-09-MLD"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-MPT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-MPT"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-MTP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-MTP"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-RMB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-RMB"/>
+        </record>
+        <record id="sector_institu_09_7002d_HC3-09-SDB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HC3-09-SDB"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-ALP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-ALP"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-BLB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-BLB"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HC1-01-CHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HC1-01-CHL"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-CHP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-CHP"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HC1-01-COM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HC1-01-COM"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-CTG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-CTG"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-DAL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-DAL"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HC1-01-DHT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HC1-01-DHT"/>
+        </record>
+        <record id="sector_institu_01_3bd35_HC1-01-DRW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HC1-01-DRW"/>
+        </record>
+        <record id="sector_institu_01_3bd35_HC1-01-DPK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HC1-01-DPK"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-EQB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-EQB"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-EDM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-EDM"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-ESH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-ESH"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HC1-01-GVC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HC1-01-GVC"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-GSP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-GSP"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-GTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-GTN"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-HAG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-HAG"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-HLD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-HLD"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-HVW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-HVW"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-JCL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-JCL"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-KWT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-KWT"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-LTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-LTN"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-LWJ" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-LWJ"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-MJG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-MJG"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-MIS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-MIS"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-MBK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-MBK"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-MAX" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-MAX"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-MTC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-MTC"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-MCD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-MCD"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-NCD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-NCD"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-NMG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-NMG"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-OKG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-OKG"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-OLG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-OLG"/>
+        </record>
+        <record id="sector_institu_01_ac4ff_HC1-01-ORF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HC1-01-ORF"/>
+        </record>
+        <record id="sector_institu_01_3bd35_HC1-01-PAD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HC1-01-PAD"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-PKR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-PKR"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-PTR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-PTR"/>
+        </record>
+        <record id="sector_institu_01_3bd35_HC1-01-RDH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HC1-01-RDH"/>
+        </record>
+        <record id="sector_institu_01_3bd35_HC1-01-RKH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HC1-01-RKH"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-RTT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-RTT"/>
+        </record>
+        <record id="sector_institu_01_016fa_HC1-01-STM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HC1-01-STM"/>
+        </record>
+        <record id="sector_institu_01_c4883_HC1-01-SVG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HC1-01-SVG"/>
+        </record>
+        <record id="sector_institu_01_61873_HC1-01-SHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HC1-01-SHL"/>
+        </record>
+        <record id="sector_institu_01_3bd35_HC1-01-SUN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HC1-01-SUN"/>
+        </record>
+        <record id="sector_institu_01_93b3d_HC1-01-WWR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HC1-01-WWR"/>
+        </record>
+        <record id="sector_institu_12_979ab_HC4-12-BLF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_979ab"/>
+            <field name="name" ref="institution_HC4-12-BLF"/>
+        </record>
+        <record id="sector_institu_12_979ab_HC4-12-BMY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_979ab"/>
+            <field name="name" ref="institution_HC4-12-BMY"/>
+        </record>
+        <record id="sector_institu_12_6e47d_HC4-12-CHT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_6e47d"/>
+            <field name="name" ref="institution_HC4-12-CHT"/>
+        </record>
+        <record id="sector_institu_12_6e47d_HC4-12-CHD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_6e47d"/>
+            <field name="name" ref="institution_HC4-12-CHD"/>
+        </record>
+        <record id="sector_institu_12_29a4e_HC4-12-CKY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_29a4e"/>
+            <field name="name" ref="institution_HC4-12-CKY"/>
+        </record>
+        <record id="sector_institu_12_29a4e_HC4-12-DWN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_29a4e"/>
+            <field name="name" ref="institution_HC4-12-DWN"/>
+        </record>
+        <record id="sector_institu_12_979ab_HC4-12-HRN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_979ab"/>
+            <field name="name" ref="institution_HC4-12-HRN"/>
+        </record>
+        <record id="sector_institu_12_cdad7_HC4-12-HRW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_cdad7"/>
+            <field name="name" ref="institution_HC4-12-HRW"/>
+        </record>
+        <record id="sector_institu_12_38609_HC4-12-LCL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_HC4-12-LCL"/>
+        </record>
+        <record id="sector_institu_12_38609_HC4-12-MCP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_HC4-12-MCP"/>
+        </record>
+        <record id="sector_institu_12_cdad7_HC4-12-MGL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_cdad7"/>
+            <field name="name" ref="institution_HC4-12-MGL"/>
+        </record>
+        <record id="sector_institu_12_32ce0_HC4-12-NPT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_32ce0"/>
+            <field name="name" ref="institution_HC4-12-NPT"/>
+        </record>
+        <record id="sector_institu_12_32ce0_HC4-12-OEL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_32ce0"/>
+            <field name="name" ref="institution_HC4-12-OEL"/>
+        </record>
+        <record id="sector_institu_12_979ab_HC4-12-PRS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_979ab"/>
+            <field name="name" ref="institution_HC4-12-PRS"/>
+        </record>
+        <record id="sector_institu_12_32ce0_HC4-12-PVL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_32ce0"/>
+            <field name="name" ref="institution_HC4-12-PVL"/>
+        </record>
+        <record id="sector_institu_12_38609_HC4-12-RYF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_HC4-12-RYF"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-BAN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-BAN"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-BBY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-BBY"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-CAS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-CAS"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-CHP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-CHP"/>
+        </record>
+        <record id="sector_institu_04_a9335_HC2-04-FPT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_a9335"/>
+            <field name="name" ref="institution_HC2-04-FPT"/>
+        </record>
+        <record id="sector_institu_04_a9335_HC2-04-FHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_a9335"/>
+            <field name="name" ref="institution_HC2-04-FHL"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-FLS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-FLS"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-FFV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-FFV"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-HBY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-HBY"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-KBY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-KBY"/>
+        </record>
+        <record id="sector_institu_04_a9335_HC2-04-MCL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_a9335"/>
+            <field name="name" ref="institution_HC2-04-MCL"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-MTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-MTN"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-MPT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-MPT"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-NSC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-NSC"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-PAT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-PAT"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-PAP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-PAP"/>
+        </record>
+        <record id="sector_institu_04_6d6f8_HC2-04-SMB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HC2-04-SMB"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-SPH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-SPH"/>
+        </record>
+        <record id="sector_institu_04_2dfa1_HC2-04-SRV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HC2-04-SRV"/>
+        </record>
+        <record id="sector_institu_06_a6bc8_HC2-06-ACH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HC2-06-ACH"/>
+        </record>
+        <record id="sector_institu_06_f602f_HC2-06-BAM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HC2-06-BAM"/>
+        </record>
+        <record id="sector_institu_06_38bbd_HC2-06-BEN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HC2-06-BEN"/>
+        </record>
+        <record id="sector_institu_06_96371_HC2-06-BJF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HC2-06-BJF"/>
+        </record>
+        <record id="sector_institu_06_38bbd_HC2-06-BSG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HC2-06-BSG"/>
+        </record>
+        <record id="sector_institu_06_a6bc8_HC2-06-BOH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HC2-06-BOH"/>
+        </record>
+        <record id="sector_institu_06_a6bc8_HC2-06-BRB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HC2-06-BRB"/>
+        </record>
+        <record id="sector_institu_06_f602f_HC2-06-BTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HC2-06-BTN"/>
+        </record>
+        <record id="sector_institu_06_38bbd_HC2-06-CMT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HC2-06-CMT"/>
+        </record>
+        <record id="sector_institu_06_a6bc8_HC2-06-CSV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HC2-06-CSV"/>
+        </record>
+        <record id="sector_institu_06_0fc2c_HC2-06-EXC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_0fc2c"/>
+            <field name="name" ref="institution_HC2-06-EXC"/>
+        </record>
+        <record id="sector_institu_06_f602f_HC2-06-GBT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HC2-06-GBT"/>
+        </record>
+        <record id="sector_institu_06_38bbd_HC2-06-JFV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HC2-06-JFV"/>
+        </record>
+        <record id="sector_institu_06_96371_HC2-06-LHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HC2-06-LHL"/>
+        </record>
+        <record id="sector_institu_06_38bbd_HC2-06-MNE" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HC2-06-MNE"/>
+        </record>
+        <record id="sector_institu_06_38bbd_HC2-06-MNG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HC2-06-MNG"/>
+        </record>
+        <record id="sector_institu_06_a6bc8_HC2-06-MHB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HC2-06-MHB"/>
+        </record>
+        <record id="sector_institu_06_0fc2c_HC2-06-ORS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_0fc2c"/>
+            <field name="name" ref="institution_HC2-06-ORS"/>
+        </record>
+        <record id="sector_institu_06_96371_HC2-06-RBY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HC2-06-RBY"/>
+        </record>
+        <record id="sector_institu_06_96371_HC2-06-SAB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HC2-06-SAB"/>
+        </record>
+        <record id="sector_institu_06_96371_HC2-06-STN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HC2-06-STN"/>
+        </record>
+        <record id="sector_institu_06_a6bc8_HC2-06-STP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HC2-06-STP"/>
+        </record>
+        <record id="sector_institu_06_f602f_HC2-06-SGT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HC2-06-SGT"/>
+        </record>
+        <record id="sector_institu_06_0fc2c_HC2-06-WWD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_0fc2c"/>
+            <field name="name" ref="institution_HC2-06-WWD"/>
+        </record>
+        <record id="sector_institu_06_f602f_HC2-06-WTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HC2-06-WTN"/>
+        </record>
+        <record id="sector_institu_14_7770e_HC1-14-BAR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HC1-14-BAR"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-BGW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-BGW"/>
+        </record>
+        <record id="sector_institu_14_2574c_HC1-14-BPD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_2574c"/>
+            <field name="name" ref="institution_HC1-14-BPD"/>
+        </record>
+        <record id="sector_institu_14_42240_HC1-14-CTV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HC1-14-CTV"/>
+        </record>
+        <record id="sector_institu_14_2574c_HC1-14-CHP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_2574c"/>
+            <field name="name" ref="institution_HC1-14-CHP"/>
+        </record>
+        <record id="sector_institu_14_7770e_HC1-14-CON" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HC1-14-CON"/>
+        </record>
+        <record id="sector_institu_14_42240_HC1-14-CRD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HC1-14-CRD"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-EWT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-EWT"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-GLF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-GLF"/>
+        </record>
+        <record id="sector_institu_14_2574c_HC1-14-GTP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_2574c"/>
+            <field name="name" ref="institution_HC1-14-GTP"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-GYH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-GYH"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-HKH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-HKH"/>
+        </record>
+        <record id="sector_institu_14_42240_HC1-14-KTT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HC1-14-KTT"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-LIN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-LIN"/>
+        </record>
+        <record id="sector_institu_14_7770e_HC1-14-LVL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HC1-14-LVL"/>
+        </record>
+        <record id="sector_institu_14_7770e_HC1-14-OLH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HC1-14-OLH"/>
+        </record>
+        <record id="sector_institu_14_7770e_HC1-14-PTH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HC1-14-PTH"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-RED" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-RED"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-RRD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-RRD"/>
+        </record>
+        <record id="sector_institu_14_42240_HC1-14-STJ" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HC1-14-STJ"/>
+        </record>
+        <record id="sector_institu_14_42240_HC1-14-SLI" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HC1-14-SLI"/>
+        </record>
+        <record id="sector_institu_14_42240_HC1-14-SYD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HC1-14-SYD"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-TRE" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-TRE"/>
+        </record>
+        <record id="sector_institu_14_389f5_HC1-14-TRO" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HC1-14-TRO"/>
+        </record>
+        <record id="sector_institu_14_2574c_HC1-14-WTF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_2574c"/>
+            <field name="name" ref="institution_HC1-14-WTF"/>
+        </record>
+        <record id="sector_institu_14_7770e_HC1-14-WTM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HC1-14-WTM"/>
+        </record>
+        <record id="sector_institu_11_0d020_HC4-11-ABD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_0d020"/>
+            <field name="name" ref="institution_HC4-11-ABD"/>
+        </record>
+        <record id="sector_institu_11_0d020_HC4-11-BLC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_0d020"/>
+            <field name="name" ref="institution_HC4-11-BLC"/>
+        </record>
+        <record id="sector_institu_11_c8ca7_HC4-11-BLV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_c8ca7"/>
+            <field name="name" ref="institution_HC4-11-BLV"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-BRR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-BRR"/>
+        </record>
+        <record id="sector_institu_11_90038_HC4-11-BSR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HC4-11-BSR"/>
+        </record>
+        <record id="sector_institu_11_90038_HC4-11-BSV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HC4-11-BSV"/>
+        </record>
+        <record id="sector_institu_11_2314e_HC4-11-EMC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_2314e"/>
+            <field name="name" ref="institution_HC4-11-EMC"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-FFP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-FFP"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-GGH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-GGH"/>
+        </record>
+        <record id="sector_institu_11_4fdd4_HC4-11-JCN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_4fdd4"/>
+            <field name="name" ref="institution_HC4-11-JCN"/>
+        </record>
+        <record id="sector_institu_11_90038_HC4-11-LCV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HC4-11-LCV"/>
+        </record>
+        <record id="sector_institu_11_2314e_HC4-11-MGT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_2314e"/>
+            <field name="name" ref="institution_HC4-11-MGT"/>
+        </record>
+        <record id="sector_institu_11_4fdd4_HC4-11-MVN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_4fdd4"/>
+            <field name="name" ref="institution_HC4-11-MVN"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-MQT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-MQT"/>
+        </record>
+        <record id="sector_institu_11_90038_HC4-11-MVL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HC4-11-MVL"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-NMK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-NMK"/>
+        </record>
+        <record id="sector_institu_11_c8ca7_HC4-11-NMC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_c8ca7"/>
+            <field name="name" ref="institution_HC4-11-NMC"/>
+        </record>
+        <record id="sector_institu_11_90038_HC4-11-PPR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HC4-11-PPR"/>
+        </record>
+        <record id="sector_institu_11_4fdd4_HC4-11-PRT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_4fdd4"/>
+            <field name="name" ref="institution_HC4-11-PRT"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-PPT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-PPT"/>
+        </record>
+        <record id="sector_institu_11_90038_HC4-11-STC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HC4-11-STC"/>
+        </record>
+        <record id="sector_institu_11_c8ca7_HC4-11-SHF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_c8ca7"/>
+            <field name="name" ref="institution_HC4-11-SHF"/>
+        </record>
+        <record id="sector_institu_11_8fc62_HC4-11-SRF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HC4-11-SRF"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-ADP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-ADP"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-BRT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-BRT"/>
+        </record>
+        <record id="sector_institu_08_90944_HC3-08-CMB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_90944"/>
+            <field name="name" ref="institution_HC3-08-CMB"/>
+        </record>
+        <record id="sector_institu_08_90944_HC3-08-CDP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_90944"/>
+            <field name="name" ref="institution_HC3-08-CDP"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-CTH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-CTH"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-CSM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-CSM"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-FLK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-FLK"/>
+        </record>
+        <record id="sector_institu_08_d6bb2_HC3-08-GLD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_d6bb2"/>
+            <field name="name" ref="institution_HC3-08-GLD"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-GLE" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-GLE"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-GWL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-GWL"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-GVL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-GVL"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-GNP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-GNP"/>
+        </record>
+        <record id="sector_institu_08_d6bb2_HC3-08-JHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_d6bb2"/>
+            <field name="name" ref="institution_HC3-08-JHL"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-LOT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-LOT"/>
+        </record>
+        <record id="sector_institu_08_d6bb2_HC3-08-MTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_d6bb2"/>
+            <field name="name" ref="institution_HC3-08-MTN"/>
+        </record>
+        <record id="sector_institu_08_90944_HC3-08-MTC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_90944"/>
+            <field name="name" ref="institution_HC3-08-MTC"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-MTS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-MTS"/>
+        </record>
+        <record id="sector_institu_08_90944_HC3-08-RHT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_90944"/>
+            <field name="name" ref="institution_HC3-08-RHT"/>
+        </record>
+        <record id="sector_institu_08_344cb_HC3-08-STP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HC3-08-STP"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-SMT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-SMT"/>
+        </record>
+        <record id="sector_institu_08_d6bb2_HC3-08-SPF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_d6bb2"/>
+            <field name="name" ref="institution_HC3-08-SPF"/>
+        </record>
+        <record id="sector_institu_08_68e70_HC3-08-TWH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HC3-08-TWH"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-ALB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-ALB"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-ALM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-ALM"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-ABY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-ABY"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-BEL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-BEL"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-BYG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-BYG"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-BRA" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-BRA"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-CST" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-CST"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-CLC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-CLC"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-CLM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-CLM"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-EFD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-EFD"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-FSH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-FSH"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-FTR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-FTR"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-GYL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-GYL"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-HSD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-HSD"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-HWH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-HWH"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-HGT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-HGT"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-HTN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-HTN"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-ISL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-ISL"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-JFT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-JFT"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-LYR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-LYR"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-LRD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-LRD"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-MSH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-MSH"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-OCB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-OCB"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-OXD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-OXD"/>
+        </record>
+        <record id="sector_institu_05_29a38_HC2-05-PTM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HC2-05-PTM"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-RET" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-RET"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-RBB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-RBB"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HC2-05-RKR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HC2-05-RKR"/>
+        </record>
+        <record id="sector_institu_05_abd92_HC2-05-WCT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HC2-05-WCT"/>
+        </record>
+        <record id="sector_institu_05_82781_HC2-05-WPK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HC2-05-WPK"/>
+        </record>
+        <record id="sector_institu_03_5e899_HC1-03-ARC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HC1-03-ARC"/>
+        </record>
+        <record id="sector_institu_03_2bc83_HC1-03-BSH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_2bc83"/>
+            <field name="name" ref="institution_HC1-03-BSH"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-CDV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-CDV"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-DNP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-DNP"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-FTH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-FTH"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-HLG" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-HLG"/>
+        </record>
+        <record id="sector_institu_03_2bc83_HC1-03-ISB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_2bc83"/>
+            <field name="name" ref="institution_HC1-03-ISB"/>
+        </record>
+        <record id="sector_institu_03_3f39d_HC1-03-LIW" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_3f39d"/>
+            <field name="name" ref="institution_HC1-03-LIW"/>
+        </record>
+        <record id="sector_institu_03_3f39d_HC1-03-LCL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_3f39d"/>
+            <field name="name" ref="institution_HC1-03-LCL"/>
+        </record>
+        <record id="sector_institu_03_5e899_HC1-03-MTB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HC1-03-MTB"/>
+        </record>
+        <record id="sector_institu_03_5e899_HC1-03-PMT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HC1-03-PMT"/>
+        </record>
+        <record id="sector_institu_03_2bc83_HC1-03-RLF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_2bc83"/>
+            <field name="name" ref="institution_HC1-03-RLF"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-SFT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-SFT"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-TRV" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-TRV"/>
+        </record>
+        <record id="sector_institu_03_85617_HC1-03-WHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HC1-03-WHL"/>
+        </record>
+        <record id="sector_institu_03_5e899_HC1-03-WHS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HC1-03-WHS"/>
+        </record>
+        <record id="sector_institu_03_3f39d_HC1-03-YLH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_3f39d"/>
+            <field name="name" ref="institution_HC1-03-YLH"/>
+        </record>
+        <record id="sector_institu_07_889d9_HC3-07-ALT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HC3-07-ALT"/>
+        </record>
+        <record id="sector_institu_07_12f15_HC3-07-BTH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HC3-07-BTH"/>
+        </record>
+        <record id="sector_institu_07_12f15_HC3-07-BKH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HC3-07-BKH"/>
+        </record>
+        <record id="sector_institu_07_1dfb3_HC3-07-CLT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HC3-07-CLT"/>
+        </record>
+        <record id="sector_institu_07_12f15_HC3-07-DSD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HC3-07-DSD"/>
+        </record>
+        <record id="sector_institu_07_1dfb3_HC3-07-DVL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HC3-07-DVL"/>
+        </record>
+        <record id="sector_institu_07_1dfb3_HC3-07-DWR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HC3-07-DWR"/>
+        </record>
+        <record id="sector_institu_07_12f15_HC3-07-FMT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HC3-07-FMT"/>
+        </record>
+        <record id="sector_institu_07_1dfb3_HC3-07-JKT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HC3-07-JKT"/>
+        </record>
+        <record id="sector_institu_07_889d9_LHC3-07-LWR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_LHC3-07-LWR"/>
+        </record>
+        <record id="sector_institu_07_1dfb3_HC3-07-RBN" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HC3-07-RBN"/>
+        </record>
+        <record id="sector_institu_07_889d9_HC3-07-RKS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HC3-07-RKS"/>
+        </record>
+        <record id="sector_institu_07_12f15_HC3-07-SHC" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HC3-07-SHC"/>
+        </record>
+        <record id="sector_institu_07_1dfb3_HC3-07-STT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HC3-07-STT"/>
+        </record>
+        <record id="sector_institu_07_889d9_HC3-07-TRY" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HC3-07-TRY"/>
+        </record>
+        <record id="sector_institu_07_889d9_HC3-07-USP" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HC3-07-USP"/>
+        </record>
+        <record id="sector_institu_07_889d9_HC3-07-WAB" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HC3-07-WAB"/>
+        </record>
+        <record id="sector_institu_07_12f15_HC3-07-WFD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HC3-07-WFD"/>
+        </record>
+        <record id="sector_institu_07_889d9_HC3-07-WRS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HC3-07-WRS"/>
+        </record>
+        <record id="sector_institu_10_630b5_HC3-10-BLK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_630b5"/>
+            <field name="name" ref="institution_HC3-10-BLK"/>
+        </record>
+        <record id="sector_institu_10_7fee9_HC3-10-BTS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7fee9"/>
+            <field name="name" ref="institution_HC3-10-BTS"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HC3-10-BKS" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HC3-10-BKS"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HC3-10-BHT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HC3-10-BHT"/>
+        </record>
+        <record id="sector_institu_10_7fee9_HC3-10-BFD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7fee9"/>
+            <field name="name" ref="institution_HC3-10-BFD"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HC3-10-CWM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HC3-10-CWM"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HC3-10-DLT" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HC3-10-DLT"/>
+        </record>
+        <record id="sector_institu_10_a79d9_HC3-10-DLD" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_a79d9"/>
+            <field name="name" ref="institution_HC3-10-DLD"/>
+        </record>
+        <record id="sector_institu_10_630b5_HC3-10-GPL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_630b5"/>
+            <field name="name" ref="institution_HC3-10-GPL"/>
+        </record>
+        <record id="sector_institu_10_630b5_HC3-10-GHL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_630b5"/>
+            <field name="name" ref="institution_HC3-10-GHL"/>
+        </record>
+        <record id="sector_institu_10_630b5_HC3-10-JSM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_630b5"/>
+            <field name="name" ref="institution_HC3-10-JSM"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HC3-10-LRR" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HC3-10-LRR"/>
+        </record>
+        <record id="sector_institu_10_a79d9_HC3-10-LTL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_a79d9"/>
+            <field name="name" ref="institution_HC3-10-LTL"/>
+        </record>
+        <record id="sector_institu_10_a79d9_HC3-10-NGL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_a79d9"/>
+            <field name="name" ref="institution_HC3-10-NGL"/>
+        </record>
+        <record id="sector_institu_10_7fee9_HC3-10-NWK" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7fee9"/>
+            <field name="name" ref="institution_HC3-10-NWK"/>
+        </record>
+        <record id="sector_institu_10_7e86b_HC3-10-PTF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
+            <field name="name" ref="institution_HC3-10-PTF"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HC3-10-STL" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HC3-10-STL"/>
+        </record>
+        <record id="sector_institu_10_7e86b_HC3-10-SLM" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
+            <field name="name" ref="institution_HC3-10-SLM"/>
+        </record>
+        <record id="sector_institu_10_7fee9_HC3-10-WHH" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7fee9"/>
+            <field name="name" ref="institution_HC3-10-WHH"/>
+        </record>
+        <record id="sector_institu_10_7e86b_HC3-10-WLF" model="gnuhealth.institution.operationalsector">
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
+            <field name="name" ref="institution_HC3-10-WLF"/>
+        </record>
+    </data>
+</tryton>
