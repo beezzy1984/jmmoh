@@ -30,6 +30,6 @@ publish:
 dist: build
 	mkdir dist
 	-cp modules/*/dist/*.tar.gz dist/
-	cd dist; tar -zcf ../healthjm.tar.gz ./*.tar.gz
+	cd dist; tar -zcf ../jmmoh.tar.gz ./*.tar.gz
 
 # package: pkg-base pkg-encounter pkg-
