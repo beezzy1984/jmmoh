@@ -45,7 +45,7 @@ requires = [
 
 for dep in info['depends']:
     if dep == 'health_encounter':
-        requires.append(prefix + 'health_encounter >=0.2,<0.3')
+        requires.append(prefix + 'health_encounter >=0.2.6,<0.3')
     elif 'jamaica' in dep:
         requires.append('%s%s %s' % (prefix, dep, myversion))
     elif dep.startswith('health'):
