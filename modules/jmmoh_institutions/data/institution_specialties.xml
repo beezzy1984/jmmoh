@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <tryton>
-    <data>
+    <data noupdate="1" skiptest="1">
         <record id="hospec_ho2-04-pah_22" model="gnuhealth.institution.specialties">
             <field name="uuid">0e18868baf6f54039048aca5099fe5e3</field>
             <field name="name" ref="institution_HO2-04-PAH"/>
