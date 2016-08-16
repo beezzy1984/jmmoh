@@ -1731,5 +1731,675 @@
             <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
             <field name="name" ref="institution_HC3-10-WLF"/>
         </record>
+        <!--Added based on ticket #31 requests-->
+        <!--Kingston and Saint Andrew Health Department-->
+        <!--Kingston-->
+        <record id="sector_institu_01-93b3d_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-93b3d_HD1-01-KSA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        <record id="sector_institu_01-ac4ff_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-ac4ff_HD1-01-KSA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        <record id="sector_institu_01-c4883_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-c4883_HD1-01-KSA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        <record id="sector_institu_01-3bd35_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-3bd35_HD1-01-KSA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        <record id="sector_institu_01-61873_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-61873_HD1-01-KSA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        <record id="sector_institu_01-016fa_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-016fa_HD1-01-KSA</field>
+             <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        <!--Saint Andrew-->
+        <!--
+        <record id="sector_institu_jm-02_HD1-01-KSA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">jm-02_HD1-01-KSA</field>
+            <field name="operational_sector" ref="country.jm-02"/>
+            <field name="name" ref="institution_HD1-01-KSA"/>
+        </record>
+        -->
+        <!--Saint Thomas Health Department-->
+        <record id="sector_institu_03-2bc83_HD1-03-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03-2bc83_HD1-03-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_2bc83"/>
+            <field name="name" ref="institution_HD1-03-STT"/>
+        </record>
+        <record id="sector_institu_03-5e899_HD1-03-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03-5e899_HD1-03-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HD1-03-STT"/>
+        </record>
+        <record id="sector_institu_03_85617_HD1-03-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03_85617_HD1-03-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HD1-03-STT"/>
+        </record>
+        <record id="sector_institu_03-3f39d_HD1-03-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03-3f39d_HD1-03-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_3f39d"/>
+            <field name="name" ref="institution_HD1-03-STT"/>
+        </record>
+        <!--Portland Health Department-->
+        <record id="sector_institu_04_6d6f8_HD2-04-POR" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">04_6d6f8_HD2-04-POR</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HD2-04-POR"/>
+        </record>
+        <record id="sector_institu_04-a9335_HD2-04-POR" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">04-a9335_HD2-04-POR</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_a9335"/>
+            <field name="name" ref="institution_HD2-04-POR"/>
+        </record>
+        <record id="sector_institu_04-2dfa1_HD2-04-POR" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">04-2dfa1_HD2-04-POR</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HD2-04-POR"/>
+        </record>
+        <!--St. Mary Health Department-->
+        <record id="sector_institu_05_29a38_HD2-05-STM" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05_29a38_HD2-05-STM</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HD2-05-STM"/>
+        </record>
+        <record id="sector_institu_05-8798c_HD2-05-STM" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05-8798c_HD2-05-STM</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_8798c"/>
+            <field name="name" ref="institution_HD2-05-STM"/>
+        </record>
+        <record id="sector_institu_05_82781_HD2-05-STM" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05_82781_HD2-05-STM</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HD2-05-STM"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HD2-05-STM" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05_c21fd_HD2-05-STM</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HD2-05-STM"/>
+        </record>
+        <record id="sector_institu_05-abd92_HD2-05-STM" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05-abd92_HD2-05-STM</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HD2-05-STM"/>
+        </record>
+        <!--St. Ann Health Department-->
+        <record id="sector_institu_06_96371_HD2-06-STA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06_96371_HD2-06-STA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HD2-06-STA"/>
+        </record>
+        <record id="sector_institu_06-0fc2c_HD2-06-STA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-0fc2c_HD2-06-STA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_0fc2c"/>
+            <field name="name" ref="institution_HD2-06-STA"/>
+        </record>
+        <record id="sector_institu_06-38bbd_HD2-06-STA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-38bbd_HD2-06-STA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HD2-06-STA"/>
+        </record>
+        <record id="sector_institu_06-f602f_HD2-06-STA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-f602f_HD2-06-STA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HD2-06-STA"/>
+        </record>
+        <record id="sector_institu_06-a6bc8_HD2-06-STA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-a6bc8_HD2-06-STA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HD2-06-STA"/>
+        </record>
+        <!--Trelawny Health Department-->
+        <record id="sector_institu_07-12f15_HD3-07-TRE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">07-12f15_HD3-07-TRE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HD3-07-TRE"/>
+        </record>
+        <record id="sector_institu_07-889d9_HD3-07-TRE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">07-889d9_HD3-07-TRE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HD3-07-TRE"/>
+        </record>
+        <record id="sector_institu_07-1dfb3_HD3-07-TRE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">07-1dfb3_HD3-07-TRE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HD3-07-TRE"/>
+        </record>
+        <!--St. James Health Department-->
+        <record id="sector_institu_08-344cb_HD3-08-MBJ" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-344cb_HD3-08-MBJ</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HD3-08-MBJ"/>
+        </record>
+        <record id="sector_institu_08-90944_HD3-08-MBJ" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-90944_HD3-08-MBJ</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_90944"/>
+            <field name="name" ref="institution_HD3-08-MBJ"/>
+        </record>
+        <record id="sector_institu_08-68e70_HD3-08-MBJ" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-68e70_HD3-08-MBJ</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HD3-08-MBJ"/>
+        </record>
+        <record id="sector_institu_08-d6bb2_HD3-08-MBJ" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-d6bb2_HD3-08-MBJ</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_d6bb2"/>
+            <field name="name" ref="institution_HD3-08-MBJ"/>
+        </record>
+        <!--Hanover Health Department-->
+        <record id="sector_institu_09-96076_HD3-09-HAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">09-96076_HD3-09-HAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_96076"/>
+            <field name="name" ref="institution_HD3-09-HAN"/>
+        </record>
+        <record id="sector_institu_09-7002d_HD3-09-HAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">09-7002d_HD3-09-HAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HD3-09-HAN"/>
+        </record>
+        <record id="sector_institu_09-d8ad0_HD3-09-HAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">09-d8ad0_HD3-09-HAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HD3-09-HAN"/>
+        </record>
+        <!--Westmoreland Health Department-->
+        <record id="sector_institu_10_7e86b_HD3-10-WES" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10_7e86b_HD3-10-WES</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
+            <field name="name" ref="institution_HD3-10-WES"/>
+        </record>
+        <record id="sector_institu_10-630b5_HD3-10-WES" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10-630b5_HD3-10-WES</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_630b5"/>
+            <field name="name" ref="institution_HD3-10-WES"/>
+        </record>
+        <record id="sector_institu_10_a79d9_HD3-10-WES" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10_a79d9_HD3-10-WES</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_a79d9"/>
+            <field name="name" ref="institution_HD3-10-WES"/>
+        </record>
+        <record id="sector_institu_10-7fee9_HD3-10-WES" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10-7fee9_HD3-10-WES</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7fee9"/>
+            <field name="name" ref="institution_HD3-10-WES"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HD3-10-WES" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10_5f1c1_HD3-10-WES</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HD3-10-WES"/>
+        </record>
+        <!--St. Elizabeth Health Department-->
+        <record id="sector_institu_11_0d020_HD4-11-STE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11_0d020_HD4-11-STE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_0d020"/>
+            <field name="name" ref="institution_HD4-11-STE"/>
+        </record>
+        <record id="sector_institu_11-8fc62_HD4-11-STE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-8fc62_HD4-11-STE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HD4-11-STE"/>
+        </record>
+        <record id="sector_institu_11-4fdd4_HD4-11-STE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-4fdd4_HD4-11-STE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_4fdd4"/>
+            <field name="name" ref="institution_HD4-11-STE"/>
+        </record>
+        <record id="sector_institu_11-2314e_HD4-11-STE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-2314e_HD4-11-STE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_2314e"/>
+            <field name="name" ref="institution_HD4-11-STE"/>
+        </record>
+        <record id="sector_institu_11-90038_HD4-11-STE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-90038_HD4-11-STE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HD4-11-STE"/>
+        </record>
+        <record id="sector_institu_11_c8ca7_HD4-11-STE" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11_c8ca7_HD4-11-STE</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_c8ca7"/>
+            <field name="name" ref="institution_HD4-11-STE"/>
+        </record>
+        <!--Manchester Health Department-->
+        <record id="sector_institu_12-38609_HD4-12-MAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-38609_HD4-12-MAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_HD4-12-MAN"/>
+        </record>
+        <record id="sector_institu_12-979ab_HD4-12-MAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-979ab_HD4-12-MAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_979ab"/>
+            <field name="name" ref="institution_HD4-12-MAN"/>
+        </record>
+        <record id="sector_institu_12-6e47d_HD4-12-MAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-6e47d_HD4-12-MAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_6e47d"/>
+            <field name="name" ref="institution_HD4-12-MAN"/>
+        </record>
+        <record id="sector_institu_12-cdad7_HD4-12-MAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-cdad7_HD4-12-MAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_cdad7"/>
+            <field name="name" ref="institution_HD4-12-MAN"/>
+        </record>
+        <record id="sector_institu_12_29a4e_HD4-12-MAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12_29a4e_HD4-12-MAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_29a4e"/>
+            <field name="name" ref="institution_HD4-12-MAN"/>
+        </record>
+        <record id="sector_institu_12-32ce0_HD4-12-MAN" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-32ce0_HD4-12-MAN</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_32ce0"/>
+            <field name="name" ref="institution_HD4-12-MAN"/>
+        </record>
+        <!--Clarendon Health Department-->
+        <record id="sector_institu_13_ee673_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13_ee673_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13-17a1a_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-17a1a_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_17a1a"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13-c3381_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-c3381_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13-547e1_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-547e1_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_547e1"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13-da264_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-da264_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13_6c4cd_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13-47682_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-47682_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_47682"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_13-1cb88_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-1cb88_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_1cb88"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <record id="sector_institu_jm-13_HD4-13-CLA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">jm-13_HD4-13-CLA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_edd79"/>
+            <field name="name" ref="institution_HD4-13-CLA"/>
+        </record>
+        <!--St. Catherine Health Department-->
+        <record id="sector_institu_14-2574c_HD1-14-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14-2574c_HD1-14-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_2574c"/>
+            <field name="name" ref="institution_HD1-14-STT"/>
+        </record>
+        <record id="sector_institu_14-42240_HD1-14-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14-42240_HD1-14-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HD1-14-STT"/>
+        </record>
+        <record id="sector_institu_14_7770e_HD1-14-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14_7770e_HD1-14-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HD1-14-STT"/>
+        </record>
+        <record id="sector_institu_14_389f5_HD1-14-STT" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14_389f5_HD1-14-STT</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HD1-14-STT"/>
+        </record>
+        <!--South-East Regional Health Authority-->
+        <!--Kingston-->
+        <record id="sector_institu_01-93b3d_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-93b3d_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_93b3d"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_01-ac4ff_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-ac4ff_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_ac4ff"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_01-c4883_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-c4883_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_c4883"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_01-3bd35_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-3bd35_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_3bd35"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_01-61873_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-61873_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_61873"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_01-016fa_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">01-016fa_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_01_016fa"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <!--Saint Thomas-->
+        <record id="sector_institu_03-2bc83_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03-2bc83_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_2bc83"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_03-5e899_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03-5e899_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_5e899"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_03_85617_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03_85617_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_85617"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_03-3f39d_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">03-3f39d_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_03_3f39d"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <!--St. Catherine-->
+        <record id="sector_institu_14-2574c_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14-2574c_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_2574c"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_14-42240_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14-42240_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_42240"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_14_7770e_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14_7770e_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_7770e"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <record id="sector_institu_14_389f5_HA1-SERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">14_389f5_HA1-SERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_14_389f5"/>
+            <field name="name" ref="institution_HA1-SERHA"/>
+        </record>
+        <!--North-East Regional Health Authority-->
+        <!--Portland-->
+        <record id="sector_institu_04_6d6f8_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">j04_6d6f8_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_6d6f8"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_04-a9335_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">04-a9335_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_a9335"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_04-2dfa1_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">04-2dfa1_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_04_2dfa1"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <!--St. Mary-->
+        <record id="sector_institu_05_29a38_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05_29a38_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_29a38"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_05-8798c_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05-8798c_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_8798c"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_05_82781_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05_82781_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_82781"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_05_c21fd_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05_c21fd_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_c21fd"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_05-abd92_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">05-abd92_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_05_abd92"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <!--St. Ann-->
+        <record id="sector_institu_06_96371_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06_96371_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_96371"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_06-0fc2c_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-0fc2c_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_0fc2c"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_06-38bbd_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-38bbd_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_38bbd"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_06-f602f_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-f602f_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_f602f"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <record id="sector_institu_06-a6bc8_HA2-NERHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">06-a6bc8_HA2-NERHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_06_a6bc8"/>
+            <field name="name" ref="institution_HA2-NERHA"/>
+        </record>
+        <!--Western Regional Health Authority-->
+        <!--Trelawny-->
+        <record id="sector_institu_07-12f15_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">07-12f15_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_12f15"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_07-889d9_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">07-889d9_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_889d9"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_07-1dfb3_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">07-1dfb3_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_07_1dfb3"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <!--St. James-->
+        <record id="sector_institu_08-344cb_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-344cb_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_344cb"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_08-90944_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-90944_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_90944"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_08-68e70_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-68e70_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_68e70"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_08-d6bb2_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">08-d6bb2_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_08_d6bb2"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <!--Hanover-->
+        <record id="sector_institu_09-96076_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">09-96076_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_96076"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_09-7002d_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">09-7002d_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_7002d"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_09-d8ad0_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">09-d8ad0_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_09_d8ad0"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <!--Westmoreland-->
+        <record id="sector_institu_10_7e86b_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10_7e86b_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7e86b"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_10-630b5_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10-630b5_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_630b5"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_10_a79d9_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10_a79d9_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_a79d9"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_10-7fee9_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10-7fee9_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_7fee9"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <record id="sector_institu_10_5f1c1_HA3-WRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">10_5f1c1_HA3-WRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_10_5f1c1"/>
+            <field name="name" ref="institution_HA3-WRHA"/>
+        </record>
+        <!--Southern Regional Health Authority-->
+       <!--St. Elizabeth-->
+        <record id="sector_institu_11_0d020_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11_0d020_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_0d020"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_11-8fc62_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-8fc62_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_8fc62"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_11-4fdd4_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-4fdd4_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_4fdd4"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_11-2314e_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-2314e_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_2314e"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_11-90038_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11-90038_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_90038"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_11_c8ca7_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">11_c8ca7_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_11_c8ca7"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <!--Manchester-->
+        <record id="sector_institu_12-38609_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-38609_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_38609"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_12-979ab_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-979ab_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_979ab"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_12-6e47d_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-6e47d_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_6e47d"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_12-cdad7_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-cdad7_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_cdad7"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_12_29a4e_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12_29a4e_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_29a4e"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_12-32ce0_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">12-32ce0_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_12_32ce0"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <!--Clarendon-->
+        <record id="sector_institu_13_ee673_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13_ee673_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_ee673"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13-17a1a_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-17a1a_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_17a1a"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13-c3381_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-c3381_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_c3381"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13-547e1_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-547e1_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_547e1"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13-da264_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-da264_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_da264"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13_6c4cd_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13_6c4cd_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_6c4cd"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13-47682_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-47682_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_47682"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_13-1cb88_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">13-1cb88_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_1cb88"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
+        <record id="sector_institu_jm-13_HA4-SRHA" model="gnuhealth.institution.operationalsector">
+            <field name="sync_code">jm-13_HA4-SRHA</field>
+            <field name="operational_sector" ref="jmmoh_base.jmsector_13_edd79"/>
+            <field name="name" ref="institution_HA4-SRHA"/>
+        </record>
     </data>
 </tryton>
