@@ -4595,11 +4595,11 @@
             <field name="name">Chief Medical Officer</field>
         </record>
         <record id="institution_MOH-01-CMO" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-CMO</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-CMO"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-SPI" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4608,11 +4608,11 @@
             <field name="name">Health Services Planning and Integration Branch</field>
         </record>
         <record id="institution_MOH-01-SPI" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-SPI</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-SPI"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-EDS" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4621,11 +4621,11 @@
             <field name="name">Emergency Disaster Management and Special Services</field>
         </record>
         <record id="institution_MOH-01-EDS" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-EDS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-EDS"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-EYE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4634,11 +4634,11 @@
             <field name="name">Jamaica/Cuba Eye Care Programme</field>
         </record>
         <record id="institution_MOH-01-EYE" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-EYE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-EYE"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-HIV" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4647,11 +4647,11 @@
             <field name="name">National HIV/AIDS Programme</field>
         </record>
         <record id="institution_MOH-01-HIV" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-HIV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-HIV"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-CNO" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4660,11 +4660,11 @@
             <field name="name">Chief Nursing Officer</field>
         </record>
         <record id="institution_MOH-01-CNO" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-CNO</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-CNO"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-PAE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4673,11 +4673,11 @@
             <field name="name">Planning and Evaluation Branch</field>
         </record>
         <record id="institution_MOH-01-PAE" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-PAE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-PAE"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-ENV" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4686,11 +4686,11 @@
             <field name="name">Environmental Health Unit</field>
         </record>
         <record id="institution_MOH-01-ENV" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-ENV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-ENV"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-EPI" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4699,11 +4699,11 @@
             <field name="name">National Epidemiology Unit</field>
         </record>
         <record id="institution_MOH-01-EPI" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-EPI</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-EPI"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-NLS" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4712,11 +4712,11 @@
             <field name="name">National Laboratory Services</field>
         </record>
         <record id="institution_MOH-01-NLS" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-NLS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-NLS"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_MOH-01-HPP" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4725,11 +4725,11 @@
             <field name="name">Health Promotion and  Protection Branch</field>
         </record>
         <record id="institution_MOH-01-HPP" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">MOH-01-HPP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-HPP"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD1-01-KSA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4738,11 +4738,11 @@
             <field name="name">Kingston and St. Andrew Health Department</field>
         </record>
         <record id="institution_HD1-01-KSA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD1-01-KSA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD1-01-KSA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD1-03-STT" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4751,11 +4751,11 @@
             <field name="name">St. Thomas Health Department</field>
         </record>
         <record id="institution_HD1-03-STT" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD1-03-STT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD1-03-STT"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD2-04-POR" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4764,11 +4764,11 @@
             <field name="name">Portland Health Department</field>
         </record>
         <record id="institution_HD2-04-POR" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD2-04-POR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD2-04-POR"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD2-05-STM" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4777,11 +4777,11 @@
             <field name="name">St. Mary Health Department</field>
         </record>
         <record id="institution_HD2-05-STM" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD2-05-STM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD2-05-STM"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD2-06-STA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4790,11 +4790,11 @@
             <field name="name">St. Ann Health Department</field>
         </record>
         <record id="institution_HD2-06-STA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD2-06-STA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD2-06-STA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD3-07-TRE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4803,11 +4803,11 @@
             <field name="name">Trelawny Health Department</field>
         </record>
         <record id="institution_HD3-07-TRE" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD3-07-TRE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-07-TRE"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD3-08-MBJ" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4816,11 +4816,11 @@
             <field name="name">St. James Health Department</field>
         </record>
         <record id="institution_HD3-08-MBJ" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD3-08-MBJ</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-08-MBJ"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD3-09-HAN" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4829,11 +4829,11 @@
             <field name="name">Hanover Health Department</field>
         </record>
         <record id="institution_HD3-09-HAN" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD3-09-HAN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-09-HAN"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD3-10-WES" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4842,11 +4842,11 @@
             <field name="name">Westmoreland Health Department</field>
         </record>
         <record id="institution_HD3-10-WES" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD3-10-WES</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-10-WES"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD4-11-STE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4855,11 +4855,11 @@
             <field name="name">St. Elizabeth Health Department</field>
         </record>
         <record id="institution_HD4-11-STE" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD4-11-STE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD4-11-STE"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD4-12-MAN" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4868,11 +4868,11 @@
             <field name="name">Manchester Health Department</field>
         </record>
         <record id="institution_HD4-12-MAN" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD4-12-MAN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD4-12-MAN"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD4-13-CLA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4881,11 +4881,11 @@
             <field name="name">Clarendon Health Department</field>
         </record>
         <record id="institution_HD4-13-CLA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD4-13-CLA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD4-13-CLA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HD1-14-STT" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4894,11 +4894,11 @@
             <field name="name">St. Catherine Health Department</field>
         </record>
         <record id="institution_HD1-14-STT" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HD1-14-STT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD1-14-STT"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HA1-SERHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4907,11 +4907,11 @@
             <field name="name">South-East Regional Health Authority</field>
         </record>
         <record id="institution_HA1-SERHA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HA1-SERHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA1-SERHA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HA2-NERHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4920,11 +4920,11 @@
             <field name="name">North-East Regional Health Authority</field>
         </record>
         <record id="institution_HA2-NERHA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HA2-NERHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA2-NERHA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HA3-WRHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4933,11 +4933,11 @@
             <field name="name">Western Regional Health Authority</field>
         </record>
         <record id="institution_HA3-WRHA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HA3-WRHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA3-WRHA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
         <record id="party_HA4-SRHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4946,11 +4946,11 @@
             <field name="name">Southern Regional Health Authority</field>
         </record>
         <record id="institution_HA4-SRHA" model="gnuhealth.institution">
-            <field name="institution_type">Administrative Department</field>
+            <field name="institution_type">admindept</field>
             <field name="code">HA4-SRHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA4-SRHA"/>
-            <field name="trauma_level">one</field>
+            <field name="trauma_center">False</field>
         </record>
     </data>
 </tryton>
