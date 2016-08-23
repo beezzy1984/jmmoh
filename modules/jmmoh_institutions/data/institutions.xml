@@ -4599,7 +4599,7 @@
             <field name="code">MOH-01-CMO</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-CMO"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-SPI" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4612,7 +4612,7 @@
             <field name="code">MOH-01-SPI</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-SPI"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-EDS" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4625,7 +4625,7 @@
             <field name="code">MOH-01-EDS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-EDS"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-EYE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4638,7 +4638,7 @@
             <field name="code">MOH-01-EYE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-EYE"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-HIV" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4651,7 +4651,7 @@
             <field name="code">MOH-01-HIV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-HIV"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-CNO" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4664,7 +4664,7 @@
             <field name="code">MOH-01-CNO</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-CNO"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-PAE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4677,7 +4677,7 @@
             <field name="code">MOH-01-PAE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-PAE"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-ENV" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4690,7 +4690,7 @@
             <field name="code">MOH-01-ENV</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-ENV"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-EPI" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4703,7 +4703,7 @@
             <field name="code">MOH-01-EPI</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-EPI"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-NLS" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4716,7 +4716,7 @@
             <field name="code">MOH-01-NLS</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-NLS"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_MOH-01-HPP" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4729,7 +4729,7 @@
             <field name="code">MOH-01-HPP</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_MOH-01-HPP"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD1-01-KSA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4742,7 +4742,7 @@
             <field name="code">HD1-01-KSA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD1-01-KSA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD1-03-STT" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4755,7 +4755,7 @@
             <field name="code">HD1-03-STT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD1-03-STT"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD2-04-POR" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4768,7 +4768,7 @@
             <field name="code">HD2-04-POR</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD2-04-POR"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD2-05-STM" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4781,7 +4781,7 @@
             <field name="code">HD2-05-STM</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD2-05-STM"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD2-06-STA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4794,7 +4794,7 @@
             <field name="code">HD2-06-STA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD2-06-STA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD3-07-TRE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4807,7 +4807,7 @@
             <field name="code">HD3-07-TRE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-07-TRE"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD3-08-MBJ" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4820,7 +4820,7 @@
             <field name="code">HD3-08-MBJ</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-08-MBJ"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD3-09-HAN" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4833,7 +4833,7 @@
             <field name="code">HD3-09-HAN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-09-HAN"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD3-10-WES" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4846,7 +4846,7 @@
             <field name="code">HD3-10-WES</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD3-10-WES"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD4-11-STE" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4859,7 +4859,7 @@
             <field name="code">HD4-11-STE</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD4-11-STE"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD4-12-MAN" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4872,7 +4872,7 @@
             <field name="code">HD4-12-MAN</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD4-12-MAN"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD4-13-CLA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4885,7 +4885,7 @@
             <field name="code">HD4-13-CLA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD4-13-CLA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HD1-14-STT" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4898,7 +4898,7 @@
             <field name="code">HD1-14-STT</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HD1-14-STT"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HA1-SERHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4911,7 +4911,7 @@
             <field name="code">HA1-SERHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA1-SERHA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HA2-NERHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4924,7 +4924,7 @@
             <field name="code">HA2-NERHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA2-NERHA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HA3-WRHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4937,7 +4937,7 @@
             <field name="code">HA3-WRHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA3-WRHA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
         <record id="party_HA4-SRHA" model="party.party">
             <field eval="True" name="is_institution"/>
@@ -4950,7 +4950,7 @@
             <field name="code">HA4-SRHA</field>
             <field name="public_level">public</field>
             <field name="name" ref="party_HA4-SRHA"/>
-            <field name="trauma_center">False</field>
+            <field name="trauma_center" eval="False" />
         </record>
     </data>
 </tryton>
