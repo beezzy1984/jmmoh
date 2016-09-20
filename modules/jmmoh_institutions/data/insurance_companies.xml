@@ -1,19 +1,20 @@
+<?xml version="1.0" ?>
+<tryton>
 <!-- 
 Author: Randy Burrell
 Created: 2016/09/14
 Purpos: Used by trytond to load insurance companies and insurance plans
 into database. 
  -->
-<?xml version="1.0" ?>
-<tryton>
     <data>
         <!--Medicus Insurance party.party-->
         <record id="party_medecus" model="party.party">
             <field eval="True" name="is_insurance_company" />
             <field eval="True" name="active" />
-            <field name="code">MEDECUS</field>
+            <field name="code">PI-01-MEDECUS</field>
             <field name="lang" ref="country_jamaica.lang_en_jm" />
             <field name="name">MedeCus Health</field>
+            <field name="ref">NP-INS001MEC</field>
         </record>
         <!--Medicus Insurance party.address-->
         <record id="party_medecus_address" model="party.address">
@@ -41,39 +42,40 @@ into database.
             <field name="value">http://www.medecus.com/</field>
             <field name="party" ref="party_medecus" />
         </record>
-        <!--Sagicore Insurance party.party-->
-        <record id="party_sagicore" model="party.party">
+        <!--Sagicor Insurance party.party-->
+        <record id="party_Sagicor" model="party.party">
             <field eval="True" name="is_insurance_company" />
             <field eval="True" name="active" />
-            <field name="code">SAGICORE</field>
+            <field name="code">PI-01-SAGICOR</field>
             <field name="lang" ref="country_jamaica.lang_en_jm" />
             <field name="name">Sagicor Life Jamaica Ltd</field>
+            <field name="ref">NP-INS002SAG</field>
         </record>
-        <!--Sagicore Insurance party.address-->
-        <record id="party_sagicore_address" model="party.address">
+        <!--Sagicor Insurance party.address-->
+        <record id="party_Sagicor_address" model="party.address">
             <field name="country" ref="country.jm" />
-            <field name="party" ref="party_sagicore" />
+            <field name="party" ref="party_Sagicor" />
             <field eval="True" name="active" />
             <field name="subdivision" ref="country.jm-01" />
             <field name="address_street_num">28-48</field>
             <field name="street">Barbados Avenue</field>
             <field name="post_office" ref="country_jamaica.jmpo_P01E51F" />
             <field name="district_community" ref="country_jamaica.jmdisco_291" />
-            <field name="name">Sagicore New Kingston</field>
+            <field name="name">Sagicor New Kingston</field>
         </record>
-        <!--Sagicore Insurance phone party.contact_mechanism-->
-        <record id="party_sagicore_contact_phone" model="party.contact_mechanism">
+        <!--Sagicor Insurance phone party.contact_mechanism-->
+        <record id="party_Sagicor_contact_phone" model="party.contact_mechanism">
             <field eval="True" name="active" />
             <field name="type">phone</field>
             <field name="value">+1(888) 724-4267</field>
-            <field name="party" ref="party_sagicore" />
+            <field name="party" ref="party_Sagicor" />
         </record>
-        <!--Sagicore Insurance website party.contact_mechanism-->
-        <record id="party_sagicore_contact_web" model="party.contact_mechanism">
+        <!--Sagicor Insurance website party.contact_mechanism-->
+        <record id="party_Sagicor_contact_web" model="party.contact_mechanism">
             <field eval="True" name="active" />
             <field name="type" >website</field> 
             <field name="value">http://www.sagicorjamaica.com/</field>
-            <field name="party" ref="party_sagicore" />
+            <field name="party" ref="party_Sagicor" />
         </record>
         <!--Group Insurance product.template-->
         <record id="product_template_group" model="product.template">
@@ -169,34 +171,34 @@ into database.
             <field name="company" ref="party_medecus" />
             <field name="name" ref="product_variant_individual_other" />
         </record>
-        <!--Sagicore Group Government Insurance Plan-->
-         <record id="group_gov_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
-            <field name="company" ref="party_sagicore" />
+        <!--Sagicor Group Government Insurance Plan-->
+         <record id="group_gov_insurance_plan_Sagicor" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_Sagicor" />
             <field name="name" ref="product_variant_group_government" />
         </record>
-        <!--Sagicore Group Private Insurance Plan-->
-         <record id="group_private_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
-            <field name="company" ref="party_sagicore" />
+        <!--Sagicor Group Private Insurance Plan-->
+         <record id="group_private_insurance_plan_Sagicor" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_Sagicor" />
             <field name="name" ref="product_variant_group_private" />
         </record>
-        <!--Sagicore Group Other Insurance Plan-->
-         <record id="group_other_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
-            <field name="company" ref="party_sagicore" />
+        <!--Sagicor Group Other Insurance Plan-->
+         <record id="group_other_insurance_plan_Sagicor" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_Sagicor" />
             <field name="name" ref="product_variant_group_other" />
         </record>
-        <!--Sagicore Personal Individual Insurance Plan-->
-         <record id="personal_individual_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
-            <field name="company" ref="party_sagicore" />
+        <!--Sagicor Personal Individual Insurance Plan-->
+         <record id="personal_individual_insurance_plan_Sagicor" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_Sagicor" />
             <field name="name" ref="product_variant_individual_personal" />
         </record>
-        <!--Sagicore Personal Family Insurance Plan-->
-         <record id="personal_family_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
-            <field name="company" ref="party_sagicore" />
+        <!--Sagicor Personal Family Insurance Plan-->
+         <record id="personal_family_insurance_plan_Sagicor" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_Sagicor" />
             <field name="name" ref="product_variant_individual_family" />
         </record>
-        <!--Sagicore Personal Other Insurance Plan-->
-         <record id="personal_other_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
-            <field name="company" ref="party_sagicore" />
+        <!--Sagicor Personal Other Insurance Plan-->
+         <record id="personal_other_insurance_plan_Sagicor" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_Sagicor" />
             <field name="name" ref="product_variant_individual_other" />
         </record>
     </data>
