@@ -1,0 +1,203 @@
+<!-- 
+Author: Randy Burrell
+Created: 2016/09/14
+Purpos: Used by trytond to load insurance companies and insurance plans
+into database. 
+ -->
+<?xml version="1.0" ?>
+<tryton>
+    <data>
+        <!--Medicus Insurance party.party-->
+        <record id="party_medecus" model="party.party">
+            <field eval="True" name="is_insurance_company" />
+            <field eval="True" name="active" />
+            <field name="code">MEDECUS</field>
+            <field name="lang" ref="country_jamaica.lang_en_jm" />
+            <field name="name">MedeCus Health</field>
+        </record>
+        <!--Medicus Insurance party.address-->
+        <record id="party_medecus_address" model="party.address">
+            <field name="country" ref="country.jm" />
+            <field name="party" ref="party_medecus" />
+            <field eval="True" name="active" />
+            <field name="subdivision" ref="country.jm-01" />
+            <field name="address_street_num">12</field>
+            <field name="street">Trafalgar Road</field>
+            <field name="post_office" ref="country_jamaica.jmpo_P01E51F" />
+            <field name="district_community" ref="country_jamaica.jmdisco_291" />
+            <field name="name">Medicus New Kingston</field>
+        </record>
+        <!--Medicus Insurance phone party.contact_mechanism-->
+        <record id="party_medecus_contact_phone" model="party.contact_mechanism">
+            <field eval="True" name="active" />
+            <field name="type">phone</field>
+            <field name="value">+1(888) 633-3287</field>
+            <field name="party" ref="party_medecus" />
+        </record>
+        <!--Medicus Insurance website party.contact_mechanism-->
+        <record id="party_medecus_contact_web" model="party.contact_mechanism">
+            <field eval="True" name="active" />
+            <field name="type" >website</field>
+            <field name="value">http://www.medecus.com/</field>
+            <field name="party" ref="party_medecus" />
+        </record>
+        <!--Sagicore Insurance party.party-->
+        <record id="party_sagicore" model="party.party">
+            <field eval="True" name="is_insurance_company" />
+            <field eval="True" name="active" />
+            <field name="code">SAGICORE</field>
+            <field name="lang" ref="country_jamaica.lang_en_jm" />
+            <field name="name">Sagicor Life Jamaica Ltd</field>
+        </record>
+        <!--Sagicore Insurance party.address-->
+        <record id="party_sagicore_address" model="party.address">
+            <field name="country" ref="country.jm" />
+            <field name="party" ref="party_sagicore" />
+            <field eval="True" name="active" />
+            <field name="subdivision" ref="country.jm-01" />
+            <field name="address_street_num">28-48</field>
+            <field name="street">Barbados Avenue</field>
+            <field name="post_office" ref="country_jamaica.jmpo_P01E51F" />
+            <field name="district_community" ref="country_jamaica.jmdisco_291" />
+            <field name="name">Sagicore New Kingston</field>
+        </record>
+        <!--Sagicore Insurance phone party.contact_mechanism-->
+        <record id="party_sagicore_contact_phone" model="party.contact_mechanism">
+            <field eval="True" name="active" />
+            <field name="type">phone</field>
+            <field name="value">+1(888) 724-4267</field>
+            <field name="party" ref="party_sagicore" />
+        </record>
+        <!--Sagicore Insurance website party.contact_mechanism-->
+        <record id="party_sagicore_contact_web" model="party.contact_mechanism">
+            <field eval="True" name="active" />
+            <field name="type" >website</field> 
+            <field name="value">http://www.sagicorjamaica.com/</field>
+            <field name="party" ref="party_sagicore" />
+        </record>
+        <!--Group Insurance product.template-->
+        <record id="product_template_group" model="product.template">
+            <field eval="True" name="active" />
+            <field name="type">service</field>
+            <field name="cost_price">0.0</field>
+            <field name="cost_price_method">fixed</field>
+            <field name="list_price">0.0</field>
+            <field name="name">Group</field>
+            <field name="category" ref="health.prod_insurance" />
+            <field name="default_uom" ref="product.uom_cat_unit" />
+        </record>
+        <!--Individual Insurance product.template-->
+        <record id="product_template_personal" model="product.template">
+            <field eval="True" name="active" />
+            <field name="type">service</field>
+            <field name="cost_price">0.0</field>
+            <field name="cost_price_method">fixed</field>
+            <field name="list_price">0.0</field>
+            <field name="name">Individual</field>
+            <field name="category" ref="health.prod_insurance" />
+            <field name="default_uom" ref="product.uom_cat_unit" />
+        </record>
+        <!--Government Group Insurance product.variant-->
+         <record id="product_variant_group_government" model="product.product">
+            <field eval="True" name="active" />
+            <field eval="True" name="is_insurance_plan" />
+            <field name="template" ref="product_template_group" />
+            <field name="code">Government</field>
+        </record>
+        <!--Private Group Insurance product.variant-->
+         <record id="product_variant_group_private" model="product.product">
+            <field eval="True" name="active" />
+            <field eval="True" name="is_insurance_plan" />
+            <field name="template" ref="product_template_group" />
+            <field name="code">Private</field>
+        </record>
+        <!--Other Group Insurance product.variant-->
+         <record id="product_variant_group_other" model="product.product">
+            <field eval="True" name="active" />
+            <field eval="True" name="is_insurance_plan" />
+            <field name="template" ref="product_template_group" />
+            <field name="code">Other</field>
+        </record>
+        <!--Personal Individual Insurance product.variant-->
+         <record id="product_variant_individual_personal" model="product.product">
+            <field eval="True" name="active" />
+            <field eval="True" name="is_insurance_plan" />
+            <field name="template" ref="product_template_personal" />
+            <field name="code">Personal</field>
+        </record>
+        <!--Family Individual Insurance product.variant-->
+         <record id="product_variant_individual_family" model="product.product">
+            <field eval="True" name="active" />
+            <field eval="True" name="is_insurance_plan" />
+            <field name="template" ref="product_template_personal" />
+            <field name="code">Family</field>
+        </record>
+        <!--Other Individual Insurance product.variant-->
+         <record id="product_variant_individual_other" model="product.product">
+            <field eval="True" name="active" />
+            <field eval="True" name="is_insurance_plan" />
+            <field name="template" ref="product_template_personal" />
+            <field name="code">Other</field>
+        </record>
+        <!--Medicus Group Government Insurance Plan-->
+         <record id="group_gov_insurance_plan_medicus" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_medecus" />
+            <field name="name" ref="product_variant_group_government" />
+        </record>
+        <!--Medicus Group Private Insurance Plan-->
+         <record id="group_private_insurance_plan_medicus" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_medecus" />
+            <field name="name" ref="product_variant_group_private" />
+        </record>
+        <!--Medicus Group Other Insurance Plan-->
+         <record id="group_other_insurance_plan_medicus" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_medecus" />
+            <field name="name" ref="product_variant_group_other" />
+        </record>
+        <!--Medicus Personal Individual Insurance Plan-->
+         <record id="personal_individual_insurance_plan_medicus" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_medecus" />
+            <field name="name" ref="product_variant_individual_personal" />
+        </record>
+        <!--Medicus Personal Family Insurance Plan-->
+         <record id="personal_family_insurance_plan_medicus" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_medecus" />
+            <field name="name" ref="product_variant_individual_family" />
+        </record>
+        <!--Medicus Personal Other Insurance Plan-->
+         <record id="personal_other_insurance_plan_medicus" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_medecus" />
+            <field name="name" ref="product_variant_individual_other" />
+        </record>
+        <!--Sagicore Group Government Insurance Plan-->
+         <record id="group_gov_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_sagicore" />
+            <field name="name" ref="product_variant_group_government" />
+        </record>
+        <!--Sagicore Group Private Insurance Plan-->
+         <record id="group_private_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_sagicore" />
+            <field name="name" ref="product_variant_group_private" />
+        </record>
+        <!--Sagicore Group Other Insurance Plan-->
+         <record id="group_other_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_sagicore" />
+            <field name="name" ref="product_variant_group_other" />
+        </record>
+        <!--Sagicore Personal Individual Insurance Plan-->
+         <record id="personal_individual_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_sagicore" />
+            <field name="name" ref="product_variant_individual_personal" />
+        </record>
+        <!--Sagicore Personal Family Insurance Plan-->
+         <record id="personal_family_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_sagicore" />
+            <field name="name" ref="product_variant_individual_family" />
+        </record>
+        <!--Sagicore Personal Other Insurance Plan-->
+         <record id="personal_other_insurance_plan_sagicore" model="gnuhealth.insurance.plan">
+            <field name="company" ref="party_sagicore" />
+            <field name="name" ref="product_variant_individual_other" />
+        </record>
+    </data>
+</tryton>
